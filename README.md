@@ -8,7 +8,6 @@ Please note that this is a formal verification contest and therefore many aspect
   - HM awards: $16,500 USDC
   - Injected Bug awards: $10,500 USDC
   - Participation: $3,000 USDC
-  - Scout awards: $500 USDC (this field doesn't exist in Notion yet, usually $500 USDC)
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - [Register](https://www.certora.com/workshops/code4rena-blockswap-syndicate/) through Certora to gain access to the prover
   - Resources to get familiar with the Certora Prover will be emailed to registrants along with their Certora key. 
