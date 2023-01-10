@@ -19,7 +19,7 @@ Please note that this is a formal verification contest and therefore many aspect
 ## Key Takeaways
 * The total reward is split into three categories: participation, real bugs, and injected bugs
 * Participation rewards are given to all security contributors that have a spec which catches publicly available injected bugs.
-* Discrete injected bugs’ and real bugs’ awards are calculated similarly, using the [same equations as in normal code4rena contests](https://docs.code4rena.com/awarding/incentive-model-and-awards). 
+* Discrete injected bugs’ and real bugs’ awards are calculated similarly, using the [same equations as in normal Code4rena contests](https://docs.code4rena.com/awarding/incentive-model-and-awards). 
 * Real bugs will require more details such as impact and an example exploit scenario.
 
 ## Incentives
@@ -29,7 +29,7 @@ The rewards for participating will be split equally among all eligible participa
 
 The rewards for real bugs and injected bugs will be distributed very similarly, but since they are separate categories, the points for each category will be distinct. In both cases, contributors will receive points based on the bugs they discover. Each bug will start at a fixed total point value which will be split equally among all contributors if multiple contributors discover the same bug. The total points for a given bug will be reduced exponentially as the number of discoverers increases**. 
 
-For real bugs, high and medium severity bugs will have a total value of 4 and 1 points respectively. Low severity bugs will not be accepted. Severity will be determined in the same way as [normal code4rena contests](https://code4rena.com/judging-criteria/) with the contest being judged by Certora. To receive rewards for real bugs, submissions must describe the bug and include a rule that detects the bug. 
+For real bugs, high and medium severity bugs will have a total value of 4 and 1 points respectively. Low severity bugs will not be accepted. Severity will be determined in the same way as [normal Code4rena contests](https://code4rena.com/judging-criteria/) with the contest being judged by Certora. To receive rewards for real bugs, submissions must describe the bug and include a rule that detects the bug. 
 
 <font size=1>** For discrete injected bugs and real bugs the  total number of points a bug is worth decreases as the number of discoverers increases. The value deteriorates based on the equation X * 0.9 ^ (n-1) where X is the initial value of the bug and n is the number of discoverers. This is put in place to prevent sybil attacks. </font>
 
