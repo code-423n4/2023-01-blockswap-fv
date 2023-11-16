@@ -1,0 +1,3273 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q1-2023 / blockswap-fv-jan19
+==============================================================
+
+[01/10/2023 18:03] itsmetechjay (pinned)
+👋 Hello and welcome to the contest channel for the $30,000 USDC **Blockswap Formal Verification Contest with Certora!**
+
+Because this is a new type of contest for Code4rena, we are opening up this channel early, to give wardens sufficient time to review and understand the parameters, and to ask questions.
+
+📆 **Contest opens** Thursday, 19 January 2023 20:00 (20:00 UTC) and runs through Thursday, 02 February 2023 20:00 (20:00 UTC) (14 days). 
+
+ℹ️ Information about the contest is available via the README file in the contest repo: 
+https://github.com/code-423n4/2023-01-blockswap-fv
+
+🚨 **Essential info:**
+
+1. This isn’t an audit. It is an implementation of rules and tests. 
+2. You must be a registered Code4rena warden to participate.
+3. You must also register via Certora’s registration form, to receive a Certora key and submission instructions: https://www.certora.com/workshops/code4rena-blockswap-1
+4. All judging will be handled by Certora.
+5. Code4rena will be distributing awards (so make sure you double-check your C4 username when registering!)
+
+**💬 Q&A**
+
+There will be a Twitter Space on January 17 where you might get some alpha on the upcoming contest. https://twitter.com/i/spaces/1DXxyvlYZqbKM
+
+You’re also welcome to ask questions here in-channel. 
+
+🫂 Please welcome the following members of the Blockswap and Certora teams, who will be available to answer questions: 
+
+**Blockswap** - @vdecentralised 
+**Certora** - @Armen | Certora 
+
+⏰ You can expect to see more links, documentation, etc. posted here, so if you’re interested in this contest, consider enabling notifications for this channel. 🐺
+
+{Embed}
+https://github.com/code-423n4/2023-01-blockswap-fv
+GitHub - code-423n4/2023-01-blockswap-fv
+Contribute to code-423n4/2023-01-blockswap-fv development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/a8e3f086-019b-417c-adcf-cf69fd3119e2-291E6
+
+{Reactions}
+👀 (16) chefskiss (8) 🫶 (6) 🔥 
+
+[01/11/2023 13:17] itsmetechjay
+Pinned a message.
+
+
+[01/12/2023 08:04] pfapostol
+Will you publicly disclose a report for this contest, including created specs?
+
+
+[01/12/2023 18:06] teryanarmen
+After the contest? Yes
+
+
+[01/14/2023 01:55] teryanarmen
+Hi @here can anyone that signed up confirm that they got an email from Certora with their key and links to resources?
+
+{Reactions}
+👍 (7) 
+
+[01/14/2023 02:44] pfapostol
+Yes, I got
+
+{Reactions}
+thankyou 
+
+[01/16/2023 15:36] czar102
+I got it, though it seems not to grant permission to the verifier
+
+
+[01/16/2023 15:37] koolexc
+I still didn't get it yet
+
+
+[01/16/2023 16:59] teryanarmen
+should have received it now
+
+
+[01/16/2023 17:03] koolexc
+Thanks. just received it!
+
+{Reactions}
+hi5 
+
+[01/16/2023 17:12] teryanarmen
+Should be fixed
+
+{Reactions}
+👍 
+
+[01/16/2023 17:19] czar102
+Can one this key to train on contracts that are not related to the contest or should it be used strictly for the purpose of the contest?
+If there will be any more verification contests, will the same key apply or will wardens receive a new one?
+
+
+[01/16/2023 17:27] teryanarmen
+Please feel free to practice using the tool. I have set the expiration dates to end after 1 week after the contest but that might be extended.
+
+
+[01/16/2023 17:27] teryanarmen
+I haven't thought about future contests enough to tell you 100% what we'll do but I think it'll be better to have everyone that signed up keep their keys so I will try it set it up that way
+
+
+[01/17/2023 09:37] 0xweiss
+So, I got the certora key. What should I do now??
+
+
+[01/17/2023 10:09] jrntr
+I registered 2 days back and still haven't received any mail
+
+{Reactions}
+✅ 
+
+[01/17/2023 15:35] uri2319
+You can follow the tutorial https://github.com/Certora/Tutorials
+It includes background material and installation instructions. Also, we have a twitter space in about ~30 min
+
+{Embed}
+https://github.com/Certora/Tutorials
+GitHub - Certora/Tutorials: Practical tutorials of Certora Prover
+Practical tutorials of Certora Prover. Contribute to Certora/Tutorials development by creating an account on GitHub.
+
+
+[01/17/2023 15:36] koolexc
+Could you share the space link?
+
+
+[01/17/2023 15:59] uri2319
+https://twitter.com/i/spaces/1DXxyvlYZqbKM
+
+
+[01/17/2023 16:00] koolexc
+Thank you!
+
+
+[01/17/2023 17:36] 0xweiss
+Thx!
+
+
+[01/18/2023 20:11] romandvo
+I registered a few days ago and didn't receive a mail yet
+
+
+[01/18/2023 21:06] Saintcode_#8823
+yeah, everything setup here!
+
+{Reactions}
+🤝 
+
+[01/18/2023 21:38] teryanarmen
+dmed
+
+
+[01/19/2023 19:36] pfapostol
+14 days because the project will be large, or because we need time to get comfortable with CVL?
+
+
+[01/19/2023 19:50] dravee
+Hey there, how about participating as a team? We individually registered as ourselves, but we have an organization repo (named the same as the team on Code4rena). Is that how we should process?
+
+
+[01/19/2023 20:06] teryanarmen
+Its not too large, verification takes a bit more time and we want wardens to get comfortable with CVL
+
+
+[01/19/2023 20:06] teryanarmen
+Yup
+
+{Reactions}
+hi5 thankyou (2) 
+
+[01/19/2023 20:07] orion4105
+I’ve registered like a week ago and I didn’t receive any email
+
+
+[01/19/2023 20:07] orion4105
+And also how can I submit a finding?!
+
+
+[01/19/2023 20:08] teryanarmen
+please read the readme, will check on your key
+
+
+[01/19/2023 20:16] teryanarmen
+Also ig I didn't introduce myself but Im from Certora and can help with any questions about the contest, submissions, or our tool
+
+{Reactions}
+hi5 (4) 
+
+[01/19/2023 20:16] orion4105
+Done ✅ thanks
+
+{Reactions}
+👍 
+
+[01/19/2023 20:32] orion4105
+Is there any alternative way to submit findings? I’m having a ton of errors to setup the workflow
+
+
+[01/19/2023 20:32] orion4105
+Thanks again
+
+
+[01/19/2023 20:34] teryanarmen
+Are you submitting bugs? dm and I can help troubleshoot
+
+
+[01/19/2023 20:47] neumoxx
+I have a couple of issues: first, how to do a private fork? Github does not let me change visibility of the fork. Second: the Syndicate file in scope points to the stakehouse contest and is different from the one in the contracts folder. Which one is in scope?
+
+
+[01/19/2023 20:49] teryanarmen
+Sorry bad link, the one in the contest repo is in scope. Private fork is explained here https://medium.com/@bilalbayasut/github-how-to-make-a-fork-of-public-repository-private-6ee8cacaf9d3
+
+{Embed}
+https://medium.com/@bilalbayasut/github-how-to-make-a-fork-of-public-repository-private-6ee8cacaf9d3
+GitHub: How to make a fork of public repository private?
+The answers are correct but don’t mention how to sync code between the public repo and the fork.
+
+{Reactions}
+💯 
+
+[01/19/2023 20:50] neumoxx
+Ok, thank you!
+
+
+[01/19/2023 21:45] Franfran#5067
+What happens if we actually find vulns in the code ?
+
+
+[01/19/2023 22:02] teryanarmen
+I imagine you'd be pretty happy. 55% of the rewards is allocated to specs that catch real HM vulns. You can write some properties that catch them and submit them as described in the readme.
+
+{Reactions}
+C4Keycap 
+
+[01/19/2023 22:11] mahdi9606
+what are injected bugs and what's difference with real bugs ?
+
+
+[01/19/2023 22:14] Franfran#5067
+looks so fun
+
+{Reactions}
+🤑 
+
+[01/19/2023 22:16] teryanarmen
+injected bugs are the to help give value to proven properties in the case that there are no real bugs. Some of them are made public so you can play with them and get some easy rewards. Anyone that has a spec that catches all the public injected bugs will get a participation reward. Others will be unveiled at the end of the contest and used to calculate the rest of the rewards.
+
+
+[01/19/2023 22:30] mahdi9606
+so injected bugs are bugs that you are aware of them and some of them made public but some of them aren't public right ?
+
+{Reactions}
+👍 
+
+[01/19/2023 22:31] carrotsmuggler
+@Armen | Certora i was running the provided tests with "./tests/verifyAllinjected.sh certora" to run the provided patches and its taking an incredibly long time. Is it usual to take >30min to run the prover? and is there a flag to run a quick offline version for faster debugging?
+
+
+[01/19/2023 22:34] carrotsmuggler
+injected bugs are like test cases for your prover. IF your prover is correct, it will flag the injected bug. So basically some testcases/injected bugs are provided while other testcases/injected bugs will be revealed later to better test your prover, if i understand correctly
+
+
+[01/19/2023 22:48] aleksandercertora
+Hi. I'm also from certora and will answer some questions as well. Mainly about the tool in general (it's the best part where I can help). 
+I believe that injected bugs are the bugs that we brought to the code on purpose. Like @carrotsmuggler said, test cases to identify how good your spec.
+
+{Reactions}
+👍 
+
+[01/19/2023 23:12] teryanarmen
+Yeah so that will run all your rules on all the bugs. You can work on a specific bug by doing `git apply certora/tests/certora/bug1.patch` and running the tool normally via `sh certora/scripts/verifySyndicate.sh checking_bug1`. You can further narrow down your run by specifying which rule you think should be catching this bug so `sh certora/scripts/verifySyndicate.sh checking_bug1 ruleA`. Check out the run script to see how its configured, you can change the inputs and what is done with them if you'd like.
+
+
+[01/19/2023 23:16] teryanarmen
+@carrotsmuggler The prover can take from several minutes to 2 hours to run, depending on your spec and code. During my testing runs would finish within a few minutes on very complex spec with this contract, maybe 10-15 minutes. Quickest way to get a faster run is probably to lower the `--loop_iter` flag, however be cautious when doing this. More info here: https://docs.certora.com/en/latest/docs/confluence/perplexed.html (scroll to just before Errors sections)
+
+
+[01/20/2023 03:14] H0#7730
+Is the contest still accept registration? Just registered on Certora
+
+
+[01/20/2023 03:42] 100proof
+Same here. Just registered on Certora page.
+
+
+[01/20/2023 05:28] 100proof
+@Armen | Certora @Aleksander | Certora I ran `bash certora/scripts/verifySyndicate.sh checking_bug1 getGet` just to give it a try and found that I got a violation for bug1. 
+
+I'm assuming this is not what you want though. You want us to write a specific rule that will catch this, not use a predefined rule in `Syndicate.spec`, right?
+
+
+[01/20/2023 05:36] aga7hokakological
+Only the rules which expose bugs will be counted towards rewards??
+
+
+[01/20/2023 07:58] Junnon#3182
+should I ignore this warning? I already put my certora key as enviroment variable but still get this warning
+`WARNING: If you have a premium Certora key, please set it as the environment variable CERTORAKEY.`
+
+
+[01/20/2023 09:09] 100proof
+@Armen | Certora really keen to get a Certora Prover key ASAP as the limited access is really slow
+
+
+[01/20/2023 09:38] zarfsec
+Are there any rewards for specs cathing low severity bugs? Or will they just count towards the participation pool (given they pass on the original code and fails on the publicly available injected bugs)?
+
+
+[01/20/2023 09:39] bowtiedheron
+got it!
+
+{Reactions}
+👍 
+
+[01/20/2023 09:39] zarfsec
+Jep, me as well 🙂
+
+{Reactions}
+👍 
+
+[01/20/2023 10:07] koolexc
+>  A short time after the deadline, Certora will update the certora branch in the public repository with the additional non-released bugs
+
+Why would Certora need to do this? just trying to understand
+
+
+[01/20/2023 10:54] cloudellie
+I believe @Armen | Certora is in PST so unless @Aleksander | Certora is online & able to help, you may need to wait a bit for him to come online 🙂
+
+
+[01/20/2023 11:31] aviggiano
+hi there
+are there any good vscode extensions for `.spec` files?
+
+
+[01/20/2023 11:34] aviggiano
+another question:
+
+what's the best way to start participating in the contest?
+
+- read the blockswap codebase first
+- read the specs first
+- try to run certora first
+- try to find the injected bugs first
+- go through certora's tutorials first
+
+
+[01/20/2023 11:34] aviggiano
+I am a bit unsure on how to start
+
+
+[01/20/2023 11:41] zapaz
+Certora Verification Language LSP
+https://marketplace.visualstudio.com/items?itemName=Certora.evmspec-lsp
+
+{Embed}
+https://marketplace.visualstudio.com/items?itemName=Certora.evmspec-lsp
+Certora Verification Language LSP - Visual Studio Marketplace
+Extension for Visual Studio Code - Write specifications for EVM bytecode in VS Code.
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/Microsoft.VisualStudio.Services.Icons-DAC7F.Default
+
+{Reactions}
+🫡 (2) 
+
+[01/20/2023 11:42] vdecentralised
+this relates to how rewards are allocated for publicly known bugs versus injected bugs found independently by using the Certora tool
+
+
+[01/20/2023 11:43] vdecentralised
+https://canary.discord.com/channels/810916927919620096/1062430373038002226/1065959187248590868 << Someone beat me to it 😄
+
+{Reactions}
+👋 
+
+[01/20/2023 11:45] vdecentralised
+If you want to understand the context of what the syndicate is trying to achieve you can read:
+- https://docs.joinstakehouse.com/protocol/learn/SLOTTokens
+- https://docs.joinstakehouse.com/lsd/syndicate
+- https://docs.joinstakehouse.com/lsd/workflow
+
+If you have never used the Certora tool, then do the tutorials
+
+Once you know the tool, you can run existing specs. Then from there, play with writing your own specs
+
+{Embed}
+https://docs.joinstakehouse.com/protocol/learn/SLOTTokens
+SLOT Tokens | Blockswap docs
+SLOT Tokens are derivatives of your validator and represent the ownership and management rights.They are a key component to ETH network revenue generation.
+
+{Embed}
+https://docs.joinstakehouse.com/lsd/syndicate
+Distributing Stakeholder Assets (via Syndicate) | Blockswap docs
+Simply put, Syndicate is a fund splitting contract. The Syndicate splits fees (MEV and tips) into half and distributes them to the node runner's smart wallet and the Fees and MEV Pool.
+
+{Embed}
+https://docs.joinstakehouse.com/lsd/workflow
+Mechanism / WorkFlow | Blockswap docs
+1. Any ETH address which could be a DAO.
+
+{Reactions}
+👍 
+
+[01/20/2023 11:48] koolexc
+Got it. thank you
+
+
+[01/20/2023 11:55] aviggiano
+Thanks
+I started with the Certora tutorial, very good material. I'll get to the actual contest later
+
+
+[01/20/2023 12:16] koolexc
+Which branch should we work on/fork?  certora or certora-contest or both?
+
+
+[01/20/2023 12:28] zarfsec
+Is it normal the `getGet()` rule is failing?
+
+
+[01/20/2023 12:33] Andreas Lynge#7861
+The readme says that certora-contest is the work branch and the work should be submitted by creating a pull request to the certora branch. More info in the readme here https://github.com/Certora/2023-01-blockswap-fv#overview-1
+
+{Embed}
+https://github.com/Certora/2023-01-blockswap-fv
+GitHub - Certora/2023-01-blockswap-fv
+Contribute to Certora/2023-01-blockswap-fv development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/2023-01-blockswap-fv-62771
+
+
+[01/20/2023 13:33] koolexc
+Thank you
+
+
+[01/20/2023 13:55] aviggiano
+Is this what you see on your editor?
+The syntax highlight seems a bit weird to me. Not sure if I got conflicting extensions
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/Screen_Shot_2023-01-20_at_10.52.49-F18B3.png
+
+
+[01/20/2023 14:10] Andreas Lynge#7861
+The `getGet` rule is indeed failing
+
+{Reactions}
+👍 
+
+[01/20/2023 14:59] _himanshu_
+"error: argument --packages: invalid type_package value: '@blockswaplab=node_modules/@blockswaplab'" What to do about this error , it came after I ran verifySyndicate script?
+
+
+[01/20/2023 15:06] zarfsec
+@Himanshu `yarn install` should resolve it
+
+
+[01/20/2023 15:07] zarfsec
+@vdecentralised DM'ed you 🙂
+
+
+[01/20/2023 15:08] vdecentralised
+Accepted
+
+
+[01/20/2023 15:54] tibthecat
+hey guys, do you know how long it takes to get a certora key (I submitted yesterday). Is it mandatory to have a key to start working on it?
+
+
+[01/20/2023 16:10] koolexc
+Maybe you can start with the demo version. It will still work without a key. not sure how much is it limited
+
+{Reactions}
+👍 
+
+[01/20/2023 16:22] teryanarmen
+The rule getGet was added as a test for getters and I forgot to remove it. Apologies about that. It is not a valid rule. Also the rule must pass on the non-buggy code, which getGet doesn't do.
+
+{Reactions}
+✔️ 
+
+[01/20/2023 16:23] teryanarmen
+yes
+
+
+[01/20/2023 16:23] teryanarmen
+You should not be getting that, dm me and I can try to help.
+
+
+[01/20/2023 16:25] teryanarmen
+@here Anyone who hasn't gotten a key within ~12 hours please dm me. There's a bug with the key generation where if your email has been signed up before then it won't send the key after making it.
+
+
+[01/20/2023 16:28] teryanarmen
+We decided that low severity bugs will not be counted as it was unclear how lengthy the judging process would be. It will be reconsidered after this contest. If a rule is failing on a low severity bug you can add it to the issues spec and note the cause. Recommending a fix would also be good. After fixing the low severity bug we can check if it also catches one of the injected bugs.
+
+
+[01/20/2023 16:29] koolexc
+> /// We defined additional functions to get around the complexity of defining dynamic arrays in cvl. We filter them in 
+> /// normal rules and invariants as they serve no purpose.
+
+Does this mean that those functions shouldn't be considered while trying to understanding the smart contract?
+
+
+[01/20/2023 16:29] teryanarmen
+certora-contest
+
+{Reactions}
+thankyou 
+
+[01/20/2023 16:31] koolexc
+Sorry, ignore this. I just got it. I thought those are excluded. I believe those are the included ones
+
+{Reactions}
+👍 
+
+[01/20/2023 16:33] koolexc
+A general question , from you experience , how would you work on this. do you start writing specs and check the result or dig deep in the smart contract functionality first then if any potential bug , you prove it with a rule?
+
+
+[01/20/2023 16:35] teryanarmen
+I would look at the contract until I figured out how it works and defined some important properties and would start implementing them. Usually this leads to some counter examples due to implicit assumptions. I would then prove those assumptions and then the properties I came up. Trying to find a bug then prove it is another way to go about it but generally not the most productive when trying to prove properties.
+
+{Reactions}
+❤️ 
+
+[01/20/2023 16:36] koolexc
+Thank you for the insight. I appreciate it!
+
+{Reactions}
+👍 
+
+[01/20/2023 16:37] teryanarmen
+Also if you've submitted and haven't gotten a key, don't resubmit! Just dm me
+
+
+[01/20/2023 16:45] teryanarmen
+To give some insight, the two potential reasons you haven't gotten a key are:
+* I haven't sent another batch yet
+* Some bug in our script
+
+I sent another batch so if you now still dont have a key, please reach out.
+
+
+[01/20/2023 16:54] koolexc
+Just for my understanding, bug1.patch is an injected bug correct?
+Now, when I look in the code, the code has no bug at this line. does this mean Certora will apply the patches and then the specs will be run on after that?
+
+
+[01/20/2023 16:54] koolexc
+Just trying to understand how the prover works
+
+
+[01/20/2023 17:07] teryanarmen
+@Koolex Yes there is some code in .github/actions/ I believe that applies each bug and runs all specs. YOu can apply the bug by doing it `apply certora/tests/certora/bug1.patch`, I believe theres some info in a markdown file in `certora/tests/`
+
+{Reactions}
+👍🏻 
+
+[01/20/2023 17:38] teryanarmen
+Btw to clarify, there are no known bugs in Syndicate.sol. 3 bugs that will be used to test your spec are public, 7 more are private. They will be injected once the contest is over.
+
+
+[01/20/2023 17:47] koolexc
+Clear thanks. Is the purpose of those hidden bugs to get as much as possible of specs coverage?
+
+
+[01/20/2023 17:50] teryanarmen
+Yeah, if they were all public it would be easy to write unit test style rules which don't add much value. We want to reward high level properties.
+
+{Reactions}
+👌🏻 
+
+[01/20/2023 17:51] koolexc
+Totally makes sense
+
+
+[01/20/2023 18:12] aviggiano
+Fix here: change the language here, it was ruby for me
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/Screen_Shot_2023-01-20_at_15.11.57-2015B.png
+
+
+[01/20/2023 21:24] abhi512
+Are these all the publicly available bugs that will be injected and tested? https://github.com/Certora/2023-01-blockswap-fv/tree/certora/certora/tests/certora
+
+{Embed}
+https://github.com/Certora/2023-01-blockswap-fv/tree/certora/certora/tests/certora
+2023-01-blockswap-fv/certora/tests/certora at certora · Certora/202...
+Contribute to Certora/2023-01-blockswap-fv development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/2023-01-blockswap-fv-62771
+
+{Reactions}
+👍 
+
+[01/20/2023 22:02] 100proof
+That's my understanding
+
+
+[01/20/2023 23:08] Saintcode_#8823
+Also how do we give read only access to a private repo, adding you as collaborators?
+
+
+[01/20/2023 23:14] 100proof
+I had the same issue. From personal GitHub accounts adding someone as a collaborator actually gives them write access also, but I didn't mind. I'm sure they won't stomp on my beautiful code 🙂
+
+{Reactions}
+😂 
+
+[01/20/2023 23:29] Saintcode_#8823
+ahahhaha
+
+
+[01/20/2023 23:30] Saintcode_#8823
+beautiful indeeed
+
+
+[01/21/2023 13:08] koolexc
+trying to understand the concept here, 
+Do you have one Syndicate for the whole protocol or for each stakehouse?
+Another question: why would you updateAccruedETHPerShares before registering Knots?
+
+
+[01/21/2023 14:33] vdecentralised
+Thanks for the questions @Koolex
+
+
+[01/21/2023 14:34] vdecentralised
+Idea is for one stakehouse to have a syndicate in the context of Liquid staking derivative networks: https://docs.joinstakehouse.com/lsd/overview
+
+{Embed}
+https://docs.joinstakehouse.com/lsd/overview
+LSD: Liquid Staking Derivative | Blockswap docs
+LSD Networks | Blockswap Docs
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/lsd-c253d0765f924885a9fc5acd7a958911-42253.jpg
+
+{Reactions}
+👍🏻 
+
+[01/21/2023 14:35] vdecentralised
+Updating accrued ETH before registering a new knot is important for checkpointing historical rewards for existing users of the syndicate
+
+
+[01/21/2023 14:38] daoboymatt
+LSD network is referred as a house in stakehouse protocol
+
+{Reactions}
+👍🏻 
+
+[01/21/2023 14:38] daoboymatt
+validator as KNOT 🪢
+
+
+[01/21/2023 15:10] koolexc
+Makes sense
+
+
+[01/21/2023 15:11] koolexc
+Thank you guys
+.
+
+
+[01/21/2023 15:14] koolexc
+@Armen | Certora 
+Is there any reference how to define a dynamic array? I see some functions signature have array replaced with just the type with no array. (e.g. uint256 instead of uint256[]).
+
+
+[01/21/2023 17:20] teryanarmen
+Cvl currently doesn’t support dynamic arrays, that’s why the additional functions in SyndicateHarness have been defined
+
+
+[01/21/2023 19:32] koolexc
+Now I understand why we have applyHarness.patch. I think it's about that correct? 
+Just a question, What do I need to do to apply the harness or is it already configured?
+
+
+[01/21/2023 20:25] indijanc7
+@Armen | Certora docs state "certora - a reference branch that should not be touched unless instructed otherwise" -> we could still pull the README.md update from yesterday I hope and not get disqualified? 🙂
+
+
+[01/21/2023 21:39] teryanarmen
+Harness is configured. The applyHarness is for more hard coded changes, for example making private variables internal or public to access them. Harness contract inherits from the main one and adds extra functions.
+
+{Reactions}
+👍🏻 
+
+[01/21/2023 21:40] teryanarmen
+Yes that’s fine, just don’t push to it please
+
+
+[01/21/2023 21:41] teryanarmen
+Also I’m pretty sick, I asked @Aleksander | Certora to keep a lookout in this channel as I’ll be checking it less often. Thanks for your patience.
+
+{Reactions}
+🙏 (6) 
+
+[01/21/2023 21:58] koolexc
+Thank you so much for your help. 
+Feel better soon!
+
+
+[01/22/2023 13:40] .whilom
+Hey I noticed that `getUnprocessedETHForAllCollateralizedSlot` is not in the `Syndicate.spec` but is in `bug5.patch`. Are we supposed to add it ourselves?
+
+Does the scope include all the functions including view functions? or is the scope limited to the methods in spec file?
+
+
+[01/22/2023 13:44] aleksandercertora
+Hi, it's not required that you need to add a method to the methods block in spec. All public/external methods can be used without declaration, but in this case, all the time, you will need to add an environment variable as a function parameter.
+
+
+[01/22/2023 14:00] .whilom
+Thanks
+
+
+[01/22/2023 15:38] .whilom
+@Aleksander | Certora  I'm having problems running certora
+
+Certora Job ID: b47028dea6c6483aaaa5d4370264f159
+
+1. Changes made: applied bug1 using git apply 
+2.  error: Certora prover error
+
+Haven't made any changes to the spec code yet
+
+
+[01/22/2023 17:50] uri2319 (pinned)
+When sharing links to verification reports, please send them with an anonymous key, for example:
+https://prover.certora.com/output/53342/18d899b1892d4ee09300c645fff3d7d3/?anonymousKey=425df495e057905d784258d95bd378243b6dc975
+You can get the link through prover.certora.com
+
+
+[01/22/2023 19:15] Aramas#0972
+Pinned a message.
+
+
+[01/22/2023 19:44] neumoxx
+@Armen | Certora sorry if it's been asked before. Can we make changes in the Harness contracts or are we supposed to touch only spec files?
+
+
+[01/22/2023 19:44] teryanarmen
+You can make changes
+
+{Reactions}
+👍 
+
+[01/23/2023 00:44] .whilom
+Here it is: 
+https://prover.certora.com/jobStatus/35588/38bde5178e8c4f839809b127464477f4?anonymousKey=375e6d426126e51c6b4fbc5849326eadbf5a0627
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/Screen_Shot_2023-01-23_at_8.44.24_AM-78861.png
+
+
+[01/23/2023 01:12] teryanarmen
+Looks like you are trying to check a rule that is not in the spec, I found this by going to report page and searching the logs for "error"
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/Screenshot_2023-01-22_at_5.11.29_PM-3A053.png
+
+
+[01/23/2023 01:15] .whilom
+Thanks a lot. Appreciate the thoroughness of your answer. 
+Been looking for that log page for a while and couldnt seem to find it.
+
+
+[01/23/2023 04:22] comradektg
+Hi @Armen | Certora , dmed!
+
+{Reactions}
+👍 
+
+[01/23/2023 06:26] 0xnorman
+Hi @Armen | Certora  I found I could not run certoraRun even if I added to the PATH. Is it possible that I can learn the materials and run the tests without using Certora on my commend line? Thanks a lot
+
+
+[01/23/2023 08:30] aleksandercertora
+Hi, the only way for you is to send a job to the server and you need certoraRun for this. 
+Could you explain what error you have? Just certoraRun command not found or some other error message?
+
+
+[01/23/2023 08:51] 0xnorman
+Hi Alex, thanks for instant responding. Yes, my console shows certoraRun command not found. I did install the certora package and the related path is added to PATH.  I would guess it's a PATH relevant issue though
+
+
+[01/23/2023 09:10] koolexc
+Just a suggestion, try using Docker. then it's the only thing you should install. I did this. saved me time if OS-level issues pop up
+
+{Reactions}
+👍 (2) 
+
+[01/23/2023 10:07] koolexc
+@Aleksander | Certora Hi, 
+May I DM you?
+
+
+[01/23/2023 11:08] koolexc
+or anyone from Certora team
+
+
+[01/23/2023 13:49] aleksandercertora
+@Koolex's suggestion is good 😅
+
+
+[01/23/2023 13:49] aleksandercertora
+yes
+
+{Reactions}
+👍🏻 
+
+[01/23/2023 14:01] aleksandercertora
+Didn't install/reinstall the tool for a while so cannot guess. Let's wait for @Armen | Certora or use docker, it shouldn't limit your experience with the tool
+
+
+[01/23/2023 15:52] itsmetechjay
+@MCERFSR and @Nurit | Certora 👋
+
+{Reactions}
+👋 (3) 
+
+[01/23/2023 16:27] 0xnorman
+Cool, thanks Koolex and Alek. Will try Docker then
+
+{Reactions}
+👍🏼 
+
+[01/24/2023 09:33] quiark
+hi, instructions in github mention a file `setup.spec` but tbh I can't find it..
+
+
+[01/24/2023 10:02] zarfsec
+it's `Syndicate.spec`
+
+
+[01/24/2023 10:11] zarfsec
+Is it normal the `assert` statement of the `totalEthReceivedMonotonicallyIncreases` rule is not reachable when `f` is replaced by `registerKnotsToSyndicate()` and `initialize()`?
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/image-FA87D.png
+
+
+[01/24/2023 10:30] uri2319
+These functions always revert, probably due to the preconditions.
+Educated guesses:
+* `initialize()` probably reverts because you cannot initialize twice, and the preconditions require that it has already been initialized
+* `registerKnotsToSyndicate` is likely a similar story, where a knot cannot be registered twice and the preconditions require the knot to already be registered to Syndicate
+
+
+[01/24/2023 10:47] neumoxx
+Can we make changes to the munged Syndicate.sol?
+
+
+[01/24/2023 10:48] mcerfsr
+@Zarf is correct, in this case there is no setup.spec file so you need to use the Syndicate.spec file
+
+
+[01/24/2023 10:49] zarfsec
+Which preconditions are you referring to in case of this rule? Can you create preconditions without a `require` statement ?
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/image-02F33.png
+
+
+[01/24/2023 10:57] mcerfsr
+it is highly unrecommended to modify the source code. When changing the source code, there's always a chance of changing the original intent. 
+Before changing the source code, think if you can summarize the function using CVL to do what you want it to do. Using method summarization you can force the return value of a function to do many things. see here: https://docs.certora.com/en/latest/docs/cvl/methods.html
+
+With that said, sometimes if you're interested in verifying an internal method or you need access to a private var, you have no choice but to munge the modifier from private to public directly in the source code. This is considered relatively safe an ok, just note that when doing so you will create an additional route of action in parametric rules which in reality is infeasible.
+
+
+[01/24/2023 11:01] mcerfsr
+looking at the code i think it's pretty sure to say that initialize reverts everytime since it calls `_registerKnotsToSyndicate`. let me take a look
+
+
+[01/24/2023 11:05] zarfsec
+Indeed, the initializer is calling the `_registerKnotsToSyndicate()` function, just as `registerKnotsToSyndicate()`. 
+Could it be the case the `inActive` boolean is false by default, which causes the revert in `_registerKnotsToSyndicate()` ?
+
+
+[01/24/2023 11:06] neumoxx
+Thanks, I’ll take a look, in fact I was changing a funtion visibility from internal to public, but I’ll try to do it some other way
+
+
+[01/24/2023 11:07] mcerfsr
+what is your loop_iter? i suspect that one of the reverts that relate to the length of the array just keep triggering because you have too-low-a-loop-iter
+
+
+[01/24/2023 11:08] mcerfsr
+generally there is no way to approach private except for changing visibility, this is maybe something you have to do.
+
+{Reactions}
+👍 
+
+[01/24/2023 11:09] zarfsec
+It's set to 3. Didn't change anything to `verifySyndicate.sh`
+
+{Reactions}
+👍 
+
+[01/24/2023 11:13] zarfsec
+ah so if we restrict `args` not the be an empty array, the `EmptyArray()` will not be triggered and the assert statement will be reached?
+
+
+[01/24/2023 11:16] mcerfsr
+i dont think this is the problem here, the prover has loop iter of 3 so it can simulate an array of length 3.
+im will keep looking at it, meanwhile you can try debugging it by checking which revert is being triggered in every possible path.
+You can run the same rule with 1 revert active at each run
+
+
+[01/24/2023 11:17] zarfsec
+Ok 🙂 I've created a rule which is using `registerKnotsToSyndicate()` too, and facing the same issue. Will try to change the implementation of `registerKnotsToSyndicate()` bit by bit to see where it fails 🙂
+
+
+[01/24/2023 13:51] koolexc
+Heyyy @vdecentralised ,
+I have two questions:
+1- Does the node operator earn from staking or only 50% of MEV and Fees?
+2- Who owns/manages the Syndicate? Is it Liquid Staking Manager?
+
+
+[01/24/2023 14:49] vdecentralised
+Hey @Koolex 
+1 -  Only 50% of fees and MEV. Consensus staking rewards goes to dETH holders (protected staking)
+2 - Liquid staking manager 
+Thanks!
+
+
+[01/24/2023 14:50] koolexc
+Thank you!
+May I DM you?
+
+
+[01/24/2023 14:52] vdecentralised
+of course
+
+{Reactions}
+thankyou 
+
+[01/24/2023 15:04] uri2319
+Answering the general question (I see that you get help for your specific case):
+The default semantics of CVL assume that each function call does not revert (unless specifically marked otherwise). Therefore, the rule has an implicit precondition that the call to `totalEthReceived()` did not revert.
+
+{Reactions}
+👍 
+
+[01/24/2023 18:25] teryanarmen
+Yeah, `setup.spec` was removed as it seemed unnecessary
+
+
+[01/24/2023 19:00] teryanarmen
+If the function is already internal you can add a function that calls it in the harness contract and call that from the spec
+
+{Reactions}
+👍 
+
+[01/24/2023 19:02] neumoxx
+thanks!
+
+
+[01/24/2023 19:25] koolexc
+Is there any difference between a parameter and a local variable in a rule?
+
+
+[01/24/2023 19:50] teryanarmen
+No with one exception, if you want to filter out methods from an arbitrary `method f`, you need to declare it as a parameter to the rule.
+
+{Reactions}
+👍🏻 
+
+[01/24/2023 19:51] koolexc
+Thanks
+
+
+[01/24/2023 19:53] koolexc
+Regarding overflow, How does CVL behave in this regard? for example let's say we have z = x * y 
+what's a good practice to tell CVL z should be maximum uint256 meaning x and y shouldn't produce a number bigger than uint256
+
+
+[01/24/2023 19:55] teryanarmen
+I think if you declare z as a uint256, it can overflow without any notice. You can declare it as a `mathint` and require that it is less than max_uint256.
+
+{Reactions}
+👍🏻 (2) 
+
+[01/24/2023 22:26] koolexc
+Is there a way to require (in a rule) that all state has zero values? instead of writing manually for each
+
+
+[01/24/2023 22:45] teryanarmen
+I don't think so, in an invariant there's the check on the constructor. Otherwise you'd have to specify the variables you need to be zero
+
+{Reactions}
+👍🏻 
+
+[01/25/2023 00:54] _brolee
+late comer here, is there anyway to get my key. submitted the form already
+
+
+[01/25/2023 03:52] teryanarmen
+Yeah, I’ll send it soon
+
+{Reactions}
+👍 
+
+[01/25/2023 05:16] abhi512
+Will the sETH tokens across different Stakehouse registries use the same underlying contract?
+
+
+[01/25/2023 06:23] abhi512
+What is the relation between the "free floating" and the collateralized shares?
+
+In the docs I see
+> The Syndicate splits fees (MEV and tips) into half and distributes them to the node runner's smart wallet and the Fees and MEV Pool
+Is there a correspondence between the types of shares and the recipients of half the fees?
+
+
+[01/25/2023 07:30] quiark
+@Armen | Certora ~~while certora is running I see some reports "property is violated", is there any way to see details before it finishes doing everything?~~
+ah click on the report link from status page
+
+{Reactions}
+👍 
+
+[01/25/2023 07:34] quiark
+I used `--rule abc` too
+
+
+[01/25/2023 08:34] teryanarmen
+Probably @vdecentralised can answer best
+
+
+[01/25/2023 08:54] matin6517
+Hello dear friends,
+How can I resolve the --solc problem during execution of certoraRun?
+Thank you🙏
+
+
+[01/25/2023 09:05] uri2319
+What is the problem? What error do you see?
+
+
+[01/25/2023 09:19] matin6517
+Though I set the solc dir to the PATH but the systems does not recognize the solc
+
+
+[01/25/2023 09:55] vdecentralised
+yes the same underlying contract
+
+
+[01/25/2023 10:27] uri2319
+How did you name your solc?
+What is the command line you use?
+Can you also print the $PATH?
+On which OS are you?
+
+
+[01/25/2023 10:55] matin6517
+I've installed the solc by default and didn't modify nor localize it🤔
+I added the term :$HOME/node-modules/solc
+
+BTW, the OS is Linux Ubuntu
+
+
+[01/25/2023 11:05] uri2319
+Is it found when executing `which solc`?
+
+
+[01/25/2023 11:13] matin6517
+The first lesson😂🤦‍♂️
+0.7.6
+
+I don't know why I can't work with this tool
+
+
+[01/25/2023 13:11] Franfran#5067
+Did you found it ? It should he located in binaries, mine is in ~/.local/bin/solc
+
+
+[01/25/2023 13:41] coqlover#5900
+What does `--settings -optimisticFallback=true` do? Is it link maybe to how the fallback of msg.sender behaves? Can't find info about it in the docs :/
+
+
+[01/25/2023 14:12] uri2319
+Did you try to use the docker version of the Certora Prover?
+
+
+[01/25/2023 14:21] matin6517
+No but I'll do it next
+
+
+[01/25/2023 15:27] 0xnorman
+try solc-select use 0.7.6 and omit the --solc useage in certoraRun command
+
+
+[01/25/2023 15:28] 0xnorman
+commenting out --solc in the scripts you run too, that works for me
+
+{Reactions}
+💪 (2) 
+
+[01/25/2023 15:28] 0xnorman
+@Matin
+
+
+[01/25/2023 15:40] matin6517
+Thank you a lot 🙏🙏
+
+{Reactions}
+😆 
+
+[01/25/2023 16:42] teryanarmen
+Yes kind of, it assumes that external calls can't change the state of the current contract. This is usually safe since in invariants and parametric rules all the functions in a contract are checked.
+
+
+[01/25/2023 17:21] abhi512
+> it assumes that external calls can't change the state of the current contract
+How is this different from the HAVOC_ECF method summary?
+
+
+[01/25/2023 17:21] abhi512
+@vdecentralised can you help here?
+
+
+[01/25/2023 17:24] vdecentralised
+@abhi512 sure thing
+
+
+[01/25/2023 17:24] teryanarmen
+This is exactly the same havoc_ecf summary applied to external calls instead of just havoc_all
+
+{Reactions}
+👍 
+
+[01/25/2023 17:25] vdecentralised
+https://docs.joinstakehouse.com/protocol/learn/slottokens << This is a good article to explain the SLOT token.
+
+{Embed}
+https://docs.joinstakehouse.com/protocol/learn/slottokens
+SLOT Tokens | Blockswap docs
+SLOT Tokens are derivatives of your validator and represent the ownership and management rights.They are a key component to ETH network revenue generation.
+
+
+[01/25/2023 17:26] vdecentralised
+In a nutshell, the Syndicate receives all execution layer rewards for a LSD network and will instantly allocate 50% for node runners. The rest to free floating holders which you can think of as just a Stakehouse protocol accounting token. This token comes from LPs that supply ETH to the fees and mev pool of an LSD network. So the 50% is redistributed amongst LPs
+
+
+[01/25/2023 17:27] abhi512
+I have read this, but did not see mention of "free floating" or "collateralized"
+
+
+[01/25/2023 17:27] vdecentralised
+Ah ok thanks for the feed back. I will make a note. Free floating means sETH
+
+
+[01/25/2023 17:27] abhi512
+> allocate 50% for node runners
+Is this the "collateralized" shares?
+
+
+[01/25/2023 17:27] vdecentralised
+correct
+
+
+[01/25/2023 17:37] uri2319
+This flag tells the prover what to do with unresolved fallback function calls, this is the closest thing we have to a documentation for it:
+-
+With the addition of `optimisticFallback` flag, unresolved calls to a fallback function (as determined by the input size provably being zero) will now generate switch statements. All non-trivial fallback functions (defined to be known fallback implementations that end with a `Return` somewhere) are selected as possible candidates to switch over. In the "fall through case", if the target contract is a known contract address we inline an implementation that reverts. If the target contract does not correspond to a known statically allocated address, we non-deterministically (but consistently) decide if the target address reverts, or is an externally owned account. In the latter case, the balance transfer completes and the calls returns a success with no return data.
+
+
+[01/25/2023 17:46] abhi512
+Can you let me know if this is accurate?
+A user who wants to be a Node operator initiates that process by providing a `deposit_data.json` file along with 4 ETH.
+Then they wait for other users to provide the remaining 28 ETH. Some (~24 ETH) will come from users depositing to Protected Staking, the rest (~4 ETH) will come from users depositing to Fees and MEV.
+Then the node operator can take some action to stake the validator. After this, 4 SLOT tokens are minted to the node operator, and 4 SLOT tokens are minted to Fees and MEV depositors.
+
+
+[01/25/2023 17:46] abhi512
+When users deposit to Protected Staking and Fees and MEV, do they choose which validator they deposit to? Or does the system assign those deposits to validators who are awaiting deposits?
+
+
+[01/25/2023 17:47] abhi512
+How are 4 SLOT tokens minted to Fees and MEV depositors divided amongst them? Is it simply proportional to their deposits?
+
+
+[01/25/2023 17:48] abhi512
+Is the Syndicate only concerned with the rewards for Node Operator and Fees and MEV staking?
+
+
+[01/25/2023 19:05] vdecentralised
+This is a great explanation
+
+
+[01/25/2023 19:06] vdecentralised
+depends if they are going direct to a specific LSD network in which case the answer is yes or they can supply ETH to a giant pool and LSD networks deployed by the legitimate factory can pull funds from the giant pools to targeted BLS keys
+
+
+[01/25/2023 19:06] vdecentralised
+correct
+
+
+[01/25/2023 19:09] vdecentralised
+yes. in terms of fees and mev, when an LSD network staking funds vault receives 50% of rewards from the syndicate it will then distribute amongst the many LPs
+
+
+[01/25/2023 19:09] vdecentralised
+Hope this all helps - thanks for the great questions
+
+
+[01/25/2023 21:02] abhi512
+I'm still a bit confused on what a Stakehouse is in this system. Is there any item in this diagram which would be the Stakehouse? https://docs.joinstakehouse.com/lsd/workflow
+
+{Embed}
+https://docs.joinstakehouse.com/lsd/workflow
+Mechanism / WorkFlow | Blockswap docs
+1. Any ETH address which could be a DAO.
+
+
+[01/25/2023 21:03] abhi512
+Is a Stakehouse associated with exactly one Syndicate? Sounds like your answer was "yes" above but would like to confirm.
+
+
+[01/25/2023 21:03] abhi512
+Can a Syndicate be associated with multiple Stakehouses? This line from Syndicate makes me think "yes" here as well
+```(address stakeHouse,,,,,) = getStakeHouseUniverse().stakeHouseKnotInfo(_blsPubKey);```
+
+
+[01/25/2023 21:04] vdecentralised
+Yes. Think of a Stakehouse as a membership registry for a group of knots. And the syndicate is designed to be able to work within the LSD (work for one house) or be deployed as a standalone contract for knots to self syndicate and distribute ETH amongst their SLOT holders.
+
+
+[01/25/2023 22:04] koolexc
+> assert condition1 => condition2
+How does CVL understand this?
+My understanding, only if condition1 is true assert condition2 . is this correct?
+
+
+[01/25/2023 22:57] teryanarmen
+You’re asserting an implication, which evaluates to false only in the case true => false. Your way of thinking about it seems accurate but I think cvl determines the value of the implication and asserts that
+
+{Reactions}
+👍🏻 
+
+[01/25/2023 23:20] koolexc
+Are we allowed to change in the harnesses files (e.g. MocksETH or SyndicateHarness ...etc)?
+
+
+[01/26/2023 00:42] 0xnorman
+I think only munged and spec are allowed to change
+
+
+[01/26/2023 03:45] teryanarmen
+You can add functions but don't see why you'd need to remove stuff. Maybe you can dm me?
+
+
+[01/26/2023 05:21] 0xnorman
+I have a question here:
+"To be eligible, participants must submit a specification which passes on the original code and fails on the publicly available injected bugs." Does that mean there is a way to run the bug patch files against spect?
+
+
+[01/26/2023 05:57] teryanarmen
+Yeah, you would do `git apply certora/tests/certora/bug1.patch` which would inject the bug and then run your script normally. Afterwards you would either manually remove the changes or do `make clean` followed by `make munged` from the certora directory.
+
+{Reactions}
+👍 
+
+[01/26/2023 06:11] 0xnorman
+Thanks @Armen | Certora ! Would run 'sh certora/tests/verifyAllInjected.sh $1' do the same? And if we make our own bugs, do we also need to create patch files?
+
+
+[01/26/2023 06:13] teryanarmen
+replace $1 with certora and it would run all your run scripts for each bug. You can make your own bug my making changes to the code in the `munged` folder and running `make bug` from the certora directory to create the patch file.
+
+
+[01/26/2023 06:17] 0xnorman
+aha got it! So that will make sure the properties inside Syndicate holds against our rules, right? And Syndicate itself contains 10 bugs, we just making it buggier
+
+
+[01/26/2023 06:25] teryanarmen
+No, the contract does not contain any bugs. All the bugs are going to be injected when testing your spec. The bugs are checking that if there was a bug, the passing properties would fail.
+
+
+[01/26/2023 06:27] 0xnorman
+Oh I misunderstood it then. Thanks for clarification
+
+{Reactions}
+👍 
+
+[01/26/2023 06:27] teryanarmen
+You can also add extra mocks, for example I believe bug1 will require a specific kind of mock external contract so that a rule can catch it.
+
+{Reactions}
+👍 
+
+[01/26/2023 06:28] teryanarmen
+Still thinking about this so input is appreciated
+
+
+[01/26/2023 06:56] quiark
+yeah as I understand it, I need to even add a function to be able to read ETH balance
+
+
+[01/26/2023 08:10] neumoxx
+This! I thought we should be able to test it by only touching the spec.
+
+
+[01/26/2023 08:12] neumoxx
+One possibility would be to add a `transfer` and `transferFrom` function to `MocksETH` that don't revert when balance/allowance is smaller than amount and just return false?
+
+
+[01/26/2023 09:19] koolexc
+I would appreciate moving such discussions to private
+
+
+[01/26/2023 09:20] koolexc
+Thank you. DMed
+
+
+[01/26/2023 10:03] stentonian
+~~In Syndicate.sol there is mention of sETH, is this the same as dETH mentioned in the docs?~~ nvm seems like sETH is SLOT
+
+
+[01/26/2023 10:11] stentonian
+@vdecentralised Could we get the contract addresses for the Stakehouse system deployed on Goerli 🙏
+
+
+[01/26/2023 10:13] stentonian
+Also, is there a way to get testnet ETH beside the Goerli faucet (requires Alchemy account) https://goerlifaucet.com/
+
+{Embed}
+https://goerlifaucet.com/
+Goerli Faucet
+A fast and reliable Ethereum Goerli testnet faucet for blockchain developers.
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/goerli-open-graph-26A47.png
+
+
+[01/26/2023 10:55] stentonian
+@vdecentralised What is the sequence of events that happen when a node operator disappears? Is it the following:
+- ETH balance for the validator starts falling
+- when it falls more than 4 ETH then stakehouse will close the validator (so no more slashing, but also no more rewards, and ETH still locked till Shanghai)
+If this is the case then does the APY of dETH drop?
+
+
+[01/26/2023 11:19] stentonian
+@vdecentralised I do not understand how this statement is true: "dETH Redeemable anytime for ETH" https://docs.joinstakehouse.com/protocol/learn/DerivativeStakedAsset
+How can it be redeemable for ETH if the ETH is locked up in the Etheruem staking contract till Shanghai?
+
+{Embed}
+https://docs.joinstakehouse.com/protocol/learn/DerivativeStakedAsset
+dETH (Derivative ETH) | Blockswap docs
+Multichain ETH for all DeFi users. Non-custodial redeemable staked ETH on any L1/L2. Earn passive yields on your staked ETH validator.
+
+
+[01/26/2023 12:39] stentonian
+In SyndicateHarness.sol there is a lot of remapping of functions where parameters are grouped into arrays e.g.
+```
+    function claimAsStaker(address input1, blsKey input2, blsKey input3) public {
+        blsKey[] memory next_input2 = new blsKey[](3);
+        next_input2[0] = input2;
+        next_input2[1] = input3;
+        claimAsStaker(input1, next_input2);
+    }
+```
+Is this because CVL cannot handle arrays as inputs to the functions? Or to make the prover run faster because it doesn't have to try arrays with arbitrary length? (or something else)
+
+
+[01/26/2023 13:00] koolexc
+Because there is a limit on iter . dynamic arrays are not supported. The prover would timeout if the length is long.
+
+{Reactions}
+👍 🙏 
+
+[01/26/2023 13:01] koolexc
+https://docs.certora.com/en/latest/docs/confluence/perplexed.html?highlight=array%20length#known-issues
+
+
+[01/26/2023 13:02] stentonian
+@vdecentralised In Syndicate.sol the stake amount is capped at 12 ETH per BLS key:
+```
+if (sETHTotalStakeForKnot[_blsPubKey] == 12 ether) revert KnotIsFullyStakedWithFreeFloatingSlotTokens();
+```
+Why 12? I would have thought this was 4 since "free floating means sETH" [1] and 4 is the number of ETH required from stakers for a single validator
+[1] https://discord.com/channels/810916927919620096/1062430373038002226/1067858278803066981
+
+
+[01/26/2023 13:26] _leogold
+I am getting this error
+How can I solve it?
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/image-3EC5B.png
+
+
+[01/26/2023 13:26] koolexc
+@Armen | Certora 
+I have two questions;
+1. When the prover tries arbitrary values (based on rule's assumptions) , How deep does it go into contracts?  Does it only consider the current contract and not any other instances?
+2. Is there a way to represent big numbers such as 1e18 in CVL? it doesn't seem to accept 1 ether.
+
+
+[01/26/2023 13:28] zarfsec
+Install the dependencies using `yarn`
+
+
+[01/26/2023 13:29] _leogold
+Thank you, I was able to solve it by switching back to certora-contest directory, I had changed my directory earlier
+
+{Reactions}
+👍 
+
+[01/26/2023 13:52] codehunter99
+Does the web version work without any other commands
+
+
+[01/26/2023 13:53] codehunter99
+I have set a simple rule on a simple contract I am not sure why it is not working
+
+
+[01/26/2023 13:54] codehunter99
+Could there a overload problem
+
+
+[01/26/2023 14:32] madalad
+prob a silly question but does anyone know how to access the address of the contract the rule is being run on (syndicate) within the rule?
+
+
+[01/26/2023 14:33] uri2319
+`currentContract`
+
+{Reactions}
+👍🏻 (2) 
+
+[01/26/2023 14:35] uri2319
+It assigns arbitrary values to all contracts
+`1e18` is valid syntax
+
+{Reactions}
+thankyou 
+
+[01/26/2023 14:37] koolexc
+Thank you @Uri 
+Can we add to the assumptions that a view function should return certain value or is it just for direct state values?
+
+
+[01/26/2023 14:37] codehunter99
+Can any1 help
+
+
+[01/26/2023 14:39] codehunter99
+Did not want to install but probably going to install
+
+
+[01/26/2023 14:42] koolexc
+1e18 is invalid syntax when I use it
+
+
+[01/26/2023 14:42] koolexc
+unexpected token near ID(e18)
+
+
+[01/26/2023 14:43] koolexc
+Couldn't repair and continue parse unexpected token near ID(e18)
+
+
+[01/26/2023 14:43] koolexc
+should I store it into a variable maybe?
+
+
+[01/26/2023 14:43] uri2319
+You can summarize the external view function as a  specific value via `ALWAYS` or a constant via `CONSTANT`:
+https://docs.certora.com/en/latest/docs/cvl/methods.html#which-function-calls-are-summarized
+
+{Reactions}
+thankyou 
+
+[01/26/2023 14:45] uri2319
+I was wrong, it should be `10^18`
+
+
+[01/26/2023 14:45] koolexc
+Thank you!
+
+
+[01/26/2023 14:46] uri2319
+your question is not clear
+
+
+[01/26/2023 14:50] codehunter99
+Sorry I am just trying https://demo.certora.com and copying a specific contract and writing specs for it however the compiler does it takings too long to run a compile the results of a specific contract
+
+
+[01/26/2023 14:50] codehunter99
+The demo.certora does not seem pretty useful
+
+
+[01/26/2023 15:11] zarfsec
+Wondering the same
+
+
+[01/26/2023 15:21] uri2319
+It is just a demo to get a feel of how to use the Prover, to do a verification of a complex contract you should install the Prover
+
+
+[01/26/2023 15:35] daoboymatt
+https://github.com/stakehouse-dev/contract-deployments#goerli-deployment
+
+{Embed}
+https://github.com/stakehouse-dev/contract-deployments
+GitHub - stakehouse-dev/contract-deployments
+Contribute to stakehouse-dev/contract-deployments development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/contract-deployments-0E4B6
+
+{Reactions}
+❤️ 
+
+[01/26/2023 15:40] daoboymatt
+please read the SlotSettlementRegistry part on this report, for detailed info on SLOT <> sETH, dual set free floating / collateralized for each KNOT (validator)
+
+
+[01/26/2023 15:40] daoboymatt
+https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Blockswap_Stakehouse.pdf
+
+{Embed}
+https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Blockswap_Stakehouse.pdf
+publications/Blockswap_Stakehouse.pdf at main · runtimeverification...
+Publications of Runtime Verification, Inc. Contribute to runtimeverification/publications development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/publications-546CC
+
+{Reactions}
+👍 (3) 
+
+[01/26/2023 16:43] koolexc
+Is it possible to have an inconsistency in result of function called in CVl than a smart contract?
+
+
+[01/26/2023 16:51] uri2319
+It can happen, because the tool under approximates difficult calculations by default. Do you use non-linear operations or bit wise operations?
+
+
+[01/26/2023 17:14] koolexc
+non-linear. there was a mistake on my end though. but would still love to get your input on it.
+
+
+[01/26/2023 17:31] uri2319
+Read this:
+https://docs.certora.com/en/latest/docs/confluence/advanced/approximation.html#solution-1-overapproximation
+
+{Reactions}
+thankyou 
+
+[01/26/2023 19:33] stentonian
+@Matt S could you possibly help with https://discord.com/channels/810916927919620096/1062430373038002226/1068121928621105173 🙏
+
+
+[01/26/2023 19:34] stentonian
+And @Matt S https://discord.com/channels/810916927919620096/1062430373038002226/1068127966233640990
+
+
+[01/26/2023 20:54] koolexc
+Is there any doc explaining a bit on how to avoid false positive cases?
+
+
+[01/26/2023 20:55] teryanarmen
+Usually if there's a false positive that means you're assuming something but not making it explicit. What works best is making it explicitly with a `require` and if possible proving it and using `requireInvariant`.
+
+
+[01/26/2023 20:58] koolexc
+So in general, the prover isn't aware of any math logic and just tries to  apply arbitrary values on state variables even if they are not consistent ? I mean even if this state is unreachable
+
+
+[01/26/2023 20:59] teryanarmen
+Yeah its not assuming anything
+
+{Reactions}
+👍🏻 
+
+[01/26/2023 21:04] koolexc
+Is it at all possible (within Certora) to get a state from a live contract (already working for some time) and apply it on the contract code before running specs?
+
+
+[01/26/2023 21:04] teryanarmen
+We're actually working on a tool like this but currently no
+
+
+[01/26/2023 21:04] koolexc
+out of curiosity
+
+
+[01/26/2023 21:04] koolexc
+That would be cool
+
+
+[01/26/2023 21:05] koolexc
+👌🏻
+
+
+[01/26/2023 21:24] vdecentralised
+Great question. I am assuming you are talking about node going offline indefinitely. In this case you will wait a very long time for the full 4 ETH to be leaked. Anyone can report this making the house aware of the situation. If more than 2 ETH is leaked, someone can top up the validator and request recovery of the signing key to restore the health of the validator. This is done via CIP a smart contract based trustless MPC: https://eprint.iacr.org/2022/1309
+
+
+[01/26/2023 22:16] abhi512
+What sort of math logic are you referring to?
+
+
+[01/26/2023 22:18] koolexc
+Whatever logic in the contract
+
+{Reactions}
+👍 
+
+[01/27/2023 00:14] abhi512
+> It is recommended to inject a bug for each rule you write
+Would you prefer these go in the `participants` directory instead of the `certora` directory?
+
+
+[01/27/2023 00:16] teryanarmen
+Yes, certora directory should only contain the bugs Certora/Blockswap adds
+
+{Reactions}
+👍 
+
+[01/27/2023 00:16] abhi512
+> For each rule that uncovers an issue/bug in the code, document each rule/invariant exactly as described for passing rules. In addition, above every rule, write the following extra information:
+If we find a (potential) bug, is it also required for us to demonstrate that some counterexample to the rule is reachable?
+
+
+[01/27/2023 00:18] teryanarmen
+What do you mean by potential bug? Something you think might be a bug but aren't sure about? You need to submit a rule that catches the bug for real bugs.
+
+
+[01/27/2023 00:19] teryanarmen
+If something is a bug, it will break some property, you can make sure the thing you think is a bug is actually bug by messaging Vince or Matt
+
+
+[01/27/2023 00:20] abhi512
+Suppose I write a rule which fails under the prover. It's possible that it only failed because I did not find a sufficient true invariant to restrict the state space. Am I required to show that some counterexample generated by the prover is truly in the reachable state space?
+
+
+[01/27/2023 00:21] teryanarmen
+If a rule is failing on the code you need to explain why it is failing for that to be counted as a bug. If you just submit a failing rule we will consider it incomplete.
+
+{Reactions}
+👍 
+
+[01/27/2023 06:02] abhi512
+In my spec file, how can I call methods on an `sETH` token given the address of the token? Since I can't do something like this in spec file, I'm not sure how to e.g. get a user's balance
+```
+IERC20 sETH = IERC20(getSlotRegistry().stakeHouseShareTokens(stakeHouse));
+```
+Would it make sense to `require` that the return value of `stakeHouseShareTokens` is some known contract's address?
+
+
+[01/27/2023 06:03] teryanarmen
+You can call the sETH directly, just like in this invariant
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/Screenshot_2023-01-26_at_10.03.35_PM-BC558.png
+
+
+[01/27/2023 06:04] teryanarmen
+line 1  in the spec defines this variable, last line in the original spec shows this example
+
+
+[01/27/2023 06:05] teryanarmen
+You can also see the function defined in the methods block if you want to call a function and declare it envfree
+
+
+[01/27/2023 09:15] teryanarmen
+I added an extra mock into the repo that can be used for bug1, lmk if you have any questions.
+
+{Reactions}
+👍🏻 
+
+[01/27/2023 09:16] teryanarmen
+You might need multiple run scripts for all the bugs
+
+
+[01/27/2023 09:51] teryanarmen
+Also not necessary to use if you have something working for you.
+
+{Reactions}
+👍🏻 
+
+[01/27/2023 10:49] neumoxx
+Hey, I tried my rule with the new contract you pushed and it works
+
+
+[01/27/2023 10:50] neumoxx
+Only FYI, you are checking `balanceOf(recipient)` and it should be `balanceOf(msg.sender)` in transfer and `balanceOf(from)` in transferFrom.
+
+{Reactions}
+✅ 
+
+[01/27/2023 10:50] neumoxx
+But anyway the functions have a path that returns false, so the rule works
+
+
+[01/27/2023 14:20] zarfsec
+According to the Certora docs an invariant first checks whether it is established after the constructor (https://docs.certora.com/en/latest/docs/cvl/invariants.html#overview)
+What if it's an upgradeable contract and `initialize` is used? 
+Also, the pre-state of my invariant is havocing certain variables resulting in a state which shouldn't be possible (to me). Is there a way to further restrict the pre-state of an invariant?
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/image-24DB4.png
+
+
+[01/27/2023 18:01] teryanarmen
+For upgradeable you would call the initialize function in a rule and check that way. Afterwards you would require that the contract is initialized and not initializing so it can't be called again. Regarding the havocs, this is just the tool picking arbitrary variables. If you want something to be different you can require it. (e.g. some sum being less than max_uint or some value being 0)
+
+
+[01/28/2023 09:48] neumoxx
+@vdecentralised please, accept my friend request, I have a couple of questions.
+
+
+[01/28/2023 11:06] vdecentralised
+accepted
+
+{Reactions}
+👍 
+
+[01/28/2023 13:21] Saintcode_#8823
+what exactly is the notHarnessCall definition for?
+
+
+[01/28/2023 16:32] codehunter99
+I am trying to verify my contract
+
+
+[01/28/2023 16:32] codehunter99
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/20230128_182407-00F7A.jpg
+
+
+[01/28/2023 17:03] abhi512
+I believe it so that when you are running a parametric rule, you can easily exclude all the harnessed functions from consideration (they are not really functions on the real contract, so we don't want to spend prover time on testing them in parameteric rules)
+
+
+[01/28/2023 19:07] aleksandercertora
+I didn't write the harness, but what @abhi512 said sounds right. 
+But maybe you will find a more interesting usage for it. Any interesting ideas are welcomed
+
+
+[01/28/2023 19:20] aleksandercertora
+Could you try `ls` command to see where you are? I checked the readme part for docker and followed it. It's correct. For me, docker started even before `2023-01-blockswap...` folder, so I needed to cd to several levels. I think in your case, it might be the same.
+
+
+[01/29/2023 10:34] coqlover#5900
+Thanks!
+Do we need to write other mocks to catch the injected bugs?
+(Also you haven't patched the balanceOf(msg.sender) in transfer)
+
+
+[01/29/2023 11:41] Saintcode_#8823
+How to access to syndicate address? for exmple want to get the sETHToken.balanceOf() the Syndicate
+
+
+[01/29/2023 11:55] coqlover#5900
+The keyword is `currentContract`. So `sETHToken.balanceOf(currentContract);`
+
+
+[01/29/2023 12:00] Saintcode_#8823
+thanks
+
+
+[01/29/2023 12:00] Saintcode_#8823
+I've been trying all kinds of words
+
+
+[01/29/2023 12:01] Saintcode_#8823
+ahahahah
+
+
+[01/29/2023 14:10] coqlover#5900
+Can I do a "snapshot" of the current state of the contract and compare it to another "snapshot"?
+I would love to check that a function is "view", and so the snapshot before/after the call would be the same. Any way to do that without writing a lot of gosth to keep track of everything in the contract?
+
+
+[01/29/2023 14:17] _himanshu_
+U can use lastStorage for that, And data type would be storage.
+
+
+[01/29/2023 14:18] _himanshu_
+Something like this:- 
+storage initialstate = lastStorage;
+/// Do whatever
+storage finalState = lastStorage;
+assert initialState==finalState
+
+
+[01/29/2023 14:18] coqlover#5900
+Oh perfect thanks
+
+
+[01/29/2023 14:46] coqlover#5900
+Got a `[utils.CertoraException: Unknown failure in Prover, please report in certora.com]`, who should I dm / report to?
+
+
+[01/29/2023 15:52] aleksandercertora
+we have a kind of snapshot, but it can't be used as you want. More info here https://docs.certora.com/en/latest/docs/cvl/types.html?highlight=lastStorage#the-storage-type
+
+Replying to your question, there is no need to check that view function is view. For example, we never do it. I have no idea what injected bugs we have but I don't think that one of them will be that we made view function, state changing. In case you have a specific concern, check a specific variable
+
+
+[01/29/2023 15:53] aleksandercertora
+It shouldn't work like this. If you have a working example, please share it with me.
+
+
+[01/29/2023 16:02] _himanshu_
+Oh yeah. Sorry about that ,You are right I misread the docs.
+
+
+[01/29/2023 16:08] codehunter99
+Facing invalid argument error when trying to run verifySyndicate.sh
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/20230129_175353-90045.jpg
+
+
+[01/29/2023 16:21] aleksandercertora
+there is no need to add `--verify` it's already included in the script
+
+
+[01/29/2023 16:23] codehunter99
+But the default arguments have a error
+
+
+[01/29/2023 16:25] codehunter99
+I was expecting to open the cloud master after verifySyndicate.sh
+
+
+[01/29/2023 16:40] codehunter99
+Is this container protected for super user
+
+
+[01/29/2023 17:41] aleksandercertora
+did you try to run from `2023-01...` folder? script assumes that you should run it from `2023-01...`
+
+
+[01/29/2023 18:14] horsefacts
+UX suggestion: it would be really nice to have colors/syntax highlighting in the prover report output as an extra visual cue to show which values are the same. The "same as" text for certain values is helpful, but it would make it even easier to visualize. I was really struggling with what turned out to be a very basic precondition for one of my rules. 😅
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/Screen_Shot_2023-01-29_at_1.05.52_PM-22344.png
+
+
+[01/29/2023 18:18] coqlover#5900
+Thanks! That's why it was failing
+So I can't check that a function modifies let's say only a certain variable?
+
+
+[01/29/2023 18:40] Saintcode_#8823
+I couldn't find answer for this
+
+
+[01/29/2023 18:51] Saintcode_#8823
+About that, is there any case that a transfer on ERC20PermitUpgradeable returns false? I think I'm wrong but wouldn't it always revert
+
+
+[01/29/2023 18:53] Saintcode_#8823
+I meant how to give you access to our github private repo
+
+
+[01/29/2023 18:57] aleksandercertora
+it was a reply to another message. missclicked, sorry
+this question is for armen
+
+
+[01/29/2023 18:58] aleksandercertora
+you can check a variable, but you have to keep track of it explicitly. not as a part of the whole storage.
+
+{Reactions}
+✅ 
+
+[01/29/2023 19:18] aleksandercertora
+and just in case somebody might think that I ignore them. I reply to questions I know the answer to. The rest is on @Armen | Certora
+
+{Reactions}
+👍 
+
+[01/29/2023 20:31] teryanarmen
+Fixed ty
+
+
+[01/29/2023 20:33] teryanarmen
+Great suggestion! Forwarded to UI team.
+
+{Reactions}
+thankyou 
+
+[01/29/2023 20:34] teryanarmen
+I added an extra mock that makes the transfer and transferFrom functions return false. There will be no private injected bugs that rely on different mocks.
+
+
+[01/29/2023 20:34] teryanarmen
+Not sure, I don't think I need write access but also not sure what you're concerned about;
+
+
+[01/29/2023 20:38] Saintcode_#8823
+No I'm not concerned about anything but as the readme said to give yall read access I didn't know if I could add u as a collaborator
+
+
+[01/29/2023 20:38] Saintcode_#8823
+All good now
+
+
+[01/29/2023 20:43] jat4100
+Just saw that the contest repo was updated few minutes ago and 2 days ago. Are we supposed to take those modifications into account?
+
+
+[01/29/2023 20:49] teryanarmen
+They're just to the readme and mock, you can use the mock if you'd like
+
+
+[01/29/2023 20:50] teryanarmen
+Some changes to the spec too ig, adding an example of something, removing `getGet`. Nothing is required I think
+
+{Reactions}
+👍 
+
+[01/30/2023 02:37] quiark
+when we are at cosmetics in counterexample display, it would be much less jarring if my expression `x = ( (p - 2) / x) + y` wasn't displayed as `x = p-2/x+y`😅
+
+{Reactions}
+👍 
+
+[01/30/2023 02:38] quiark
+any way to know that my counterexample is due to overapproximation?
+
+
+[01/30/2023 02:41] quiark
+I see an update of storage variable that should have happened is missing from CE and then the result is wrong, is that overapproximation?
+
+
+[01/30/2023 05:43] teryanarmen
+Not sure what you mean, if it’s something that’s impossible due to the business logic of the contract then it may be over approximation. I can help more if you give me a specific example. You can dm me
+
+
+[01/30/2023 05:46] quiark
+Turns out it's a problem that munged contract didn't get updated
+
+
+[01/31/2023 02:00] teryanarmen
+Btw participation is not required in order to compete for other injected bugs. Some people messaged me about this, thought I’d say it here.
+
+
+[01/31/2023 02:01] teryanarmen
+And there won’t be transfer Boolean type bugs in the other injected bugs
+
+
+[01/31/2023 04:31] PPrieditis#2482
+@Armen | Certora I just sent a DM. I think I found a small bug. It is a small thing.
+
+{Reactions}
+👍 
+
+[01/31/2023 07:04] PPrieditis#2482
+@vdecentralised sent a friend request. I would like to propose a small change in Syndicate.sol. It almost doesn't change the functionality but makes code a bit cleaner and easier to understand.
+
+
+[01/31/2023 09:42] dewaxindo
+Hi, I just tried installing the Certora prover and want to try the tutorial, but got an error like this. Any advice?
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/Screenshot_2023-01-31_at_16.40.17-91D29.png
+
+
+[01/31/2023 10:30] uri2319
+There is no `--solc_select` argument. Did you mean `--solc`?
+
+
+[01/31/2023 10:31] dewaxindo
+Can't do that as well
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/Screenshot_2023-01-31_at_17.31.17-2E1D8.png
+
+
+[01/31/2023 10:36] neumoxx
+In my system I had to put the solc version like this `--solc solc-0.7.6`, give it a try
+
+
+[01/31/2023 10:38] neumoxx
+@Uri, is there a limit on the number of rules to test? My whole spec is failing, but if I enter the report all rules are green.
+
+
+[01/31/2023 10:46] coqlover#5900
+Sometimes my rule timesout and on the report I have a yellow clock logo as well as the time spent trying to prove it, so it seems fine
+But sometimes rules have a time 0s and error that is "rule timeout". Is that normal? Here is a screen showing the 2 cases
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/image-A0D20.png
+
+
+[01/31/2023 10:54] aleksandercertora
+it can fail because of different reasons. But no limit for a number of rules. if you run many rules it could reach 2h hardstop and it will be shown as a failure but check rules will be available
+
+
+[01/31/2023 10:56] aleksandercertora
+I think it depends on the reason for a timeout. but it's fine that they are different, it's possible
+
+
+[01/31/2023 11:04] coqlover#5900
+Ok cool thanks
+
+
+[01/31/2023 11:06] vdecentralised
+accepted
+
+
+[01/31/2023 11:34] dewaxindo
+still no luck
+
+
+[01/31/2023 11:38] uri2319
+you are using `solc-select`? Then you are probably using the default name for it, so try running without `--solc` at all
+
+
+[01/31/2023 11:42] dewaxindo
+no I'm using solc
+
+
+[01/31/2023 11:42] dewaxindo
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/Screenshot_2023-01-31_at_18.33.07-C3AC2.png
+
+
+[01/31/2023 11:44] dewaxindo
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/Screenshot_2023-01-31_at_18.44.35-F5A7C.png
+
+
+[01/31/2023 11:56] dewaxindo
+now I tried run the command without `--solc`
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/Screenshot_2023-01-31_at_18.55.19-B75F9.png
+
+
+[01/31/2023 12:06] uri2319
+Did you try `solc-select use 0.7.6`? Do you have `solc-select` installed?
+Do you have `solc7.6` installed? If so, where?
+
+
+[01/31/2023 12:09] dewaxindo
+no, I do not have `solc-select` I have `solc 0.8.17`
+I tried run it with `--solc solc0.8.17` & `--solc solc-0.8.17` and still no luck.
+
+but when I tried to run it without `-solc` I think it's work
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/Screenshot_2023-01-31_at_18.55.19-96482.png
+
+
+[01/31/2023 12:15] dewaxindo
+update: after I edit the `msg.sender` to payable in `bank.sol` it works fine.
+Thank you @Uri
+
+
+[01/31/2023 12:29] uri2319
+By default we look for `solc` in your path. You need to use `--solc` only if you want to use something other than the default
+
+
+[01/31/2023 12:32] neumoxx
+Real bugs severity will be decided by the judges? Or do we have to explicitly say if we consider it High/Medium?
+
+
+[01/31/2023 12:38] koolexc
+@Uri I DMed for a question
+
+
+[01/31/2023 13:32] neumoxx
+The execution lasted 40 mins, so didn’t reach the 2h cap. Plus, I just executed all the rules individually and all of them succeded. I don’t know what is happening, but don’t want to submit a spec that fails (although the rules are all green) to the contest. Can I split the spec in two files and see if that way it works? Or is it mandatory to send only one file for the passing rules?
+
+
+[01/31/2023 13:36] koolexc
+should we split specs into two files in case we reach two hours?
+
+
+[01/31/2023 15:55] Saintcode_#8823
+how to get eth balance of an address?
+
+
+[01/31/2023 16:08] aleksandercertora
+@Armen | Certora knows better 😅
+
+{Reactions}
+👍 
+
+[01/31/2023 16:09] aleksandercertora
+if it's not in the harness, then you need to write a getter for it in harness
+`address(this).balance`
+
+
+[01/31/2023 16:10] Saintcode_#8823
+okay
+
+
+[01/31/2023 17:22] jrntr
+Try vscode+docker version
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/image0-9736F.jpg
+
+{Reactions}
+👍🏻 
+
+[01/31/2023 18:28] teryanarmen
+You should let us know what you think the severity is.
+
+{Reactions}
+👍🏼 
+
+[01/31/2023 18:29] teryanarmen
+You can definitely split the spec into multiple files. The parallelism works to a limit, so after a few rules in one spec you would have results faster if you split them.
+
+{Reactions}
+👍🏼 
+
+[01/31/2023 18:30] teryanarmen
+You don't need to split the spec. You can use the `--rules` flag to specify which rules to check for each run script and just have multiple run scripts.
+
+
+[01/31/2023 18:32] koolexc
+Alright, so it would be good for you to have multiple scripts 👍🏻
+
+
+[01/31/2023 18:45] teryanarmen
+Yup
+
+{Reactions}
+👍🏻 
+
+[01/31/2023 20:30] carrotsmuggler
+@Armen | Certora how to get the address of the syndicate contract in the spec?
+
+
+[01/31/2023 20:43] koolexc
+currentContract
+
+{Reactions}
+thankyou (2) 
+
+[01/31/2023 21:55] quantum.a
+Hi @Armen | Certora I read that we should work out of the certora-contest branch. It seems you made changes to the certora branch. Should we work from the certora branch instead?
+
+
+[01/31/2023 21:58] koolexc
+Heyy, just sharing what I know. but @Armen | Certora can confirm.
+You should  use **certora-contest** branch, and any changes in  **certora** branch (from their repo) should be merged into your **certora-contest** branch.
+
+{Reactions}
+☝️ (2) thankyou (2) 
+
+[01/31/2023 22:22] 0xnorman
+Yeah I think you need to make a pull request from certora-contest to certora branch in the end. And that will include all of your works
+
+{Reactions}
+👍🏻 ☝️ (2) thankyou (2) 
+
+[01/31/2023 23:00] carrotsmuggler
+@Armen | Certora how to send eth to syndicate?
+
+
+[01/31/2023 23:14] teryanarmen
+You will need to define a function in the harness contract that does this. You can also require the balance to be some value. The choice depends on what you are checking.
+
+{Reactions}
+👍 
+
+[02/01/2023 04:31] quiark
+@Armen | Certora how to filter-in methods that use arrays? it doesn't seem to like `deRegisterKnots(bytes[]).selector` . I know there is a harnessed version of this but as I'm making a whitelist, I feel I should include this possibility too
+
+
+[02/01/2023 06:11] teryanarmen
+The munged version of the function is `deRegisterKnots(bytes32[]).selector` so try that
+
+
+[02/01/2023 08:46] stentonian
+@Armen | Certora I added a line to the method section in the spec `totalFreeFloatingShares() returns (uint256) envfree` and created a rule that calls this method. The prover has managed to assign it a hex value (see image). I find this weird because it should be an uint256. Do you know what might be happening here?
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/Screenshot_from_2023-02-01_08-45-34-88D0D.png
+
+
+[02/01/2023 09:56] uri2319
+Large numbers are represented as hex because they are easier to read
+
+{Reactions}
+👍 
+
+[02/01/2023 11:17] Junnon#3182
+@vdecentralised want dm to ask something please accept my friiend request
+
+
+[02/01/2023 11:18] vdecentralised
+🫡
+
+
+[02/01/2023 11:18] Junnon#3182
+thanks
+
+
+[02/01/2023 11:32] quantum.a
+Thank you!
+
+
+[02/01/2023 11:49] koolexc
+Sure
+
+
+[02/01/2023 12:11] neumoxx
+Isn't the function to send Ether to the contract the receive() function?
+
+
+[02/01/2023 12:12] neumoxx
+But I don't see it in the list of functions called, although there is a `certorafallback` call that looks like it. Can you please @Armen | Certora confirm?
+
+
+[02/01/2023 12:20] quantum.a
+Hi, it is mentioned here that you want to reward high level properties, implying that the other non-public injected bugs are caught via high level properties/rules. The public injected bugs, however, seem to be caught via unit-style tests (e.g. checking a function returns a correct value). I was wondering whether the public injected bugs are indeed a different type than the non-public injected bugs (i.e. unit-style vs high-level respectively) or whether we can also expect unit-style tests for the non-public injected bugs? I'm wondering whether I'm thinking about the rules I'm writing for the public injected bugs correctly.
+
+
+[02/01/2023 13:35] coqlover#5900
+Is it cool if I leave rules that timeout on some functions of the contract? The rule is ok on every function except 2/3 functions. I don't want to filter out these functions by hand, because I guess if a bug is injected on these then the solver would find them
+
+
+[02/01/2023 13:46] .synackrst
+I keep getting `Certora prover error` when I run my rule against bug1, but I can't seem to find error logs (when I click "Logs Page", it says "Requested resource was not found). I'm not using CERTORAKEY as I haven't received the email with the key yet. Can someone from Certora help?
+https://prover.certora.com/output/49230/d396107bf9ec40048739aa23e63d0ddb/
+https://prover.certora.com/output/49230/e62529252f2b472f9835b29da84a2e70/
+
+
+[02/01/2023 14:47] stentonian
+Suppose the SyndicateHarness contract has a method:
+```
+function getToken() returns (IERC20) {
+  return token;
+}
+```
+how would I get the decimals of this token in the spec? I can't seem to do this:
+```
+methods {
+  getToken() returns (IERC20);
+}
+rule myRule() {
+  IERC20 token = getToken();
+  assert(token.decimals() == 18);
+}
+```
+I get the following error (no line number):
+```
+Type checking SyndicateHarness
+Failed to compile spec file
+CRITICAL: java.lang.UnsupportedOperationException: Expected CVLSimpleType.Inbuilt.EvmType return types, but got [IERC20]
+CRITICAL: Encountered an error running Certora Prover:
+Specification file error
+```
+
+
+[02/01/2023 14:50] stentonian
+I guess I could add a function to the harness that gets the decimals, but seems strange that I can't work with non-basic types in CVL
+
+
+[02/01/2023 14:50] abhi512
+I guess your function calls in CVL can only return primitives
+
+
+[02/01/2023 14:51] abhi512
+Yeah I think this is the wei here
+
+{Reactions}
+👍 
+
+[02/01/2023 14:59] teryanarmen
+Yeah I think since receive is basically a specific type of fallback, we might not treat it differently, will double check with the team. In the meantime if you want to test for sure you can implement a custom receive function that is payable.
+
+
+[02/01/2023 15:02] neumoxx
+Great, thank you.
+
+{Reactions}
+👍 
+
+[02/01/2023 15:04] teryanarmen
+You can split up the rule (copy paste it and filter some functions on one and others on the other) and maybe add a separate run script for it. A rule that times out on the normal code and catches a bug is kind of a gray area I hadn't considered, might take it case by case and it would be safer to have the rule passing on the original code.
+
+
+[02/01/2023 15:05] teryanarmen
+Dm me, this is most likely a key issue
+
+
+[02/01/2023 15:14] teryanarmen
+If you check the spec you can see on line 1 there is `using MocksETH as sETHToken` which is what allows us to call functions on the sETH functions, for example in the `addressZeroHasNoBalance` invariant. You would need to do the same with the ERC20 you want to access. I think this would also require you to add the ERC20 implementation you want the prover to use into the run script similar to how the mock contracts are added. It might be easier to go with the hacky way of adding something to the harness. You would still need to add an ERC20 implementation to the run script otherwise the prover will use sETH which is the only one that has the function `decimals`
+
+{Reactions}
+👍 
+
+[02/01/2023 15:39] quantum.a
+@vdecentralised I sent you a message and a friend request 🙂
+
+{Reactions}
+👍 
+
+[02/01/2023 15:43] jat4100
+should we merge the latest modifications to certora branch on certoa-contest?
+
+{Reactions}
+👍 
+
+[02/01/2023 15:49] abhi512
+Yeah I'm pretty sure those changes are meant to be pulled into your branch
+
+{Reactions}
+thankyou (2) 
+
+[02/01/2023 19:08] teryanarmen
+Hi @here, a little over 24 hours left for the contest. Please be ready to finalize your repo by February 2, 2023 20:00 UTC. The only changes that can be made after this time are merges from the public repo and creating the PR from the `certora-contest` branch to the `certora` branch. Thanks for your cooperation.
+
+{Reactions}
+🙌 (5) 
+
+[02/01/2023 19:17] ggballas#4060
+Question about Certora - can I make `invariant`'s depend on each other?
+
+in other words - assume that I have two `invariant`'s:
+* one called `A_lt_7`, aserting that property `A < 7` always holds
+* another called `B_lt_12` asserting that property `B < 12` always holds.
+
+the `constructor()` sets `A = 0`, and `B = 5`
+
+there are two functions:
+* `increment_A()` (does `A += 1`, reverts if that breaks `A < 7`
+```
+function increment_A():
+    A += 1;
+    require(A < 7);
+```
+
+* `update_B()` which sets `B` to `A + 5`:
+```
+function upadte_B():
+    B = A + 5;
+```
+
+`A_lt_7` by itself is easy to prove - the `constructor()` sets `A` to a valid value and `increment_A()` (the only function that changes `A`) cannot break that `invariant`.
+
+`B_lt_12` however - the constructor sets `B` to a valid value, but the Certora prover may try to disprove it by setting `A` to 12, and then calling `update_B()` (causing `B == 17` and breaking the `B_lt_12` invariant).
+
+if the Certora prover assumes the `A_lt_7` invariant holds however, it will not attempt to set `A` to 12.
+
+how can I make the Certora prover assume the `A_lt_7` invariant ? do I have to implement hooks/ghosts/havocs ?
+
+
+[02/01/2023 19:41] neumoxx
+@Armen | Certora What if one of the rules of our real issues spec catches an injected bug that none of our regular rules catch? Does it count as caught? Asking because we can only put rules that pass in the regular specs.
+
+
+[02/01/2023 19:43] teryanarmen
+You can do `requireInvariant A_lt_7` which effectively does `require A < 7`. More info: https://docs.certora.com/en/latest/docs/cvl/invariants.html#invariant-induction
+
+{Reactions}
+🔥 
+
+[02/01/2023 19:45] teryanarmen
+Yes this came to mind. There is no way to automate this so we will have to check manually. Things that would help are a good bug fix suggestion for real bugs and pinging me if you have a rule that catches a real bug that you think will also catch an injected bug (you can decide this once the discrete injected bugs are made public)
+
+{Reactions}
+🙏 
+
+[02/01/2023 20:13] quantum.a
+How do I obtain the result from a method that returns multiple values? I am trying to do it as done in Solidity but the Certora Verification Language is giving me an error.
+
+
+[02/01/2023 20:24] teryanarmen
+You need to write a harness that returns a single value
+
+{Reactions}
+thankyou (2) 
+
+[02/01/2023 20:49] carrotsmuggler
+is there are any time limit for the runtime? some of the parametric tests are reaal slow
+
+
+[02/01/2023 22:31] teryanarmen
+There’s a 2 hour hard stop. If it’s really bad you can have two versions of the same rule where each version filters for different functions and run those rules separately
+
+
+[02/02/2023 01:14] cryptphi
+did anyone get the remappings to work on the certoraRun? I've been trying to figure out the correct syntax to use along with `--solc_args`
+
+
+[02/02/2023 02:07] carrotsmuggler
+how to inherit specs? the guidelines say i should create a new spec for real bugs, do i copy all the declarations in the old spec or is there a way to import them?
+
+
+[02/02/2023 02:09] teryanarmen
+Not sure what you mean for remappings, like the open zeppelin packages? You can dm me but it should work if you install dependencies. —solc_args is used for optimizations I believe
+
+
+[02/02/2023 02:10] teryanarmen
+You can do ‘import “./otherSpec.spec”’ in the first line of the inheriting spec
+
+
+[02/02/2023 03:09] cryptphi
+Yes. I did install the dependencied... thanks, I'll send a DM once back on my PC in a few hours
+
+{Reactions}
+👍 
+
+[02/02/2023 06:57] Franfran#5067
+Is there any tips to make the rules verifications a bit faster ?
+
+
+[02/02/2023 07:02] teryanarmen
+You can try reducing `--loop_iter` in the run script to 2. You can also run less rules in parallel, so use `--rules` and specify certain rules. You can also further split single rules into multiple that each run on a subset of the functions in the contract. Check out the docs age on timeouts https://docs.certora.com/en/latest/docs/confluence/perplexed.html and maybe the page on cli flags
+https://docs.certora.com/en/latest/docs/prover/cli/options.html?highlight=timeout
+
+{Reactions}
+chefskiss 
+
+[02/02/2023 08:33] Franfran#5067
+How can I specify the msg.sender address of a rule ?
+
+
+[02/02/2023 08:33] Franfran#5067
+Let's say that I wanna get the sETH balance of the address that is sending the transactions
+
+
+[02/02/2023 09:37] zapaz
+like this in you bash script :
+```
+--packages                                        \
+@blockswaplab=node_modules/@blockswaplab          \
+@openzeppelin=node_modules/@openzeppelin          \
+```
+
+
+[02/02/2023 09:58] dewaxindo
+Hi to submit to this contest we must:
+1. create Pull Request within our repository from the `certora-contest` branch to the `certora` branch
+2. Accept/ Merge the Pull Request.
+3. Done 
+
+Am I correct?
+
+
+[02/02/2023 10:29] Junnon#3182
+env e; 
+You can access e.msg.sender then
+
+{Reactions}
+💪 hi5 
+
+[02/02/2023 10:30] uri2319
+Each function may have a different sender. If you have an `env` variable that you pass to a function, say `env e`, you can access the sender via `e.msg.sender`.
+
+
+[02/02/2023 10:30] Junnon#3182
+Afaik judges the one who accept / merge your pull request
+
+
+[02/02/2023 10:31] Junnon#3182
+Cmiiw
+
+
+[02/02/2023 10:37] dewaxindo
+hmm because it's our own repository we can accept/merge the pull request right?
+
+
+[02/02/2023 10:58] Franfran#5067
+Thanks @Uri @Junnon  🙂
+
+
+[02/02/2023 11:20] koolexc
+When do we create the PR (after the contest ends)? do we merge it? It's not clear to me
+
+
+[02/02/2023 13:00] dewaxindo
+same here
+
+
+[02/02/2023 13:07] cryptphi
+Oh cool. Thanks
+
+
+[02/02/2023 14:52] Saintcode_#8823
+How many run scripts are we supose to have?
+
+
+[02/02/2023 16:57] carrotsmuggler
+where do we open the pull req? do i open it from my private repo's certora-contest to my private repo's certora? because then CI doesnt run since it isnt set up. Do i need to open a pull request to the certora repository maintained by certora? since this isnt a fork i am confused how to do that
+
+
+[02/02/2023 17:08] ggballas#4060
+hey @Armen | Certora how to sum all values of a mapping?
+
+for example:
+```
+mapping(address => uint256) fundsOfUser;
+```
+
+I want to create a a (ghost?) func called `totalFunds` that will have the sum of all `fundsOfUser`. I tried the following but it seemed not to work:
+```
+ghost totalFunds() returns uint256;
+
+hook Sstore fundsOfUser[KEY address user] uint256 amount STORAGE {
+  havoc totalFunds assuming totalFunds@new() == totalFunds@old() + amount;
+}
+```
+
+EDIT: I see my mistake, rewriting this as :
+```
+ghost totalFunds() returns uint256;
+
+hook Sstore fundsOfUser[KEY address user] uint256 amount_new (uint256 amount_old) STORAGE {
+  havoc totalFunds assuming totalFunds@new() == totalFunds@old() + amount_new - amount_old;
+}
+```
+worked for me
+
+
+[02/02/2023 17:13] teryanarmen
+Hi @here I got a lot of messages from people asking if their submission is good. I'll go through those and let you know one by one but in general I think the PR might need to be created after the injected bugs are disclosed (in ~3 hours). So after the bugs are pushed to the public repo you would need to pull from that to your `certora` branch and create a PR from your `certora-contest` branch to the `certora` branch. Thanks for your patience.
+
+{Reactions}
+👍🏻 (2) 
+
+[02/02/2023 17:34] coqlover#5900
+I can't help you debug your code, but this works for me
+(Also your "amount" variable of your code will be the value written to fundsOfUser, not what is added)
+```ghost mathint totalFunds {    
+init_state axiom totalFunds == 0;}
+hook Sstore fundsOfUser[KEY address blsPubKey] uint256 new_value (uint256 old_value) STORAGE {    
+totalFunds = totalFunds + new_value - old_value;}```
+
+{Reactions}
+🙏 (2) 
+
+[02/02/2023 17:35] coqlover#5900
+Should be similar to you, using a variable instead of a function is syntaxic sugar https://docs.certora.com/en/latest/docs/confluence/anatomy/update.html
+
+{Reactions}
+👍 
+
+[02/02/2023 17:37] teryanarmen
+You can have as many as needed, try to keep it reasonable though
+
+
+[02/02/2023 17:38] teryanarmen
+The ci should run when you make that pr in your own repo. Also make sure to add your key as a repository secret.
+
+
+[02/02/2023 17:47] teryanarmen
+Also @here I am unfortunately just realizing that github actions needs to be enabled when using a private repository. There is a finite amount of time and runs for private repos and Im not sure what that is but if we run into that we may ask you to make your repo public. We will be able to make sure that no one can copy your work by ensuring no changes are made to any repo after the deadline.
+
+
+[02/02/2023 18:04] teryanarmen
+Got a few people asking about using a separate mock and changing the name in the spec. You can have separate spec files if you'd like, I think the best way to go about it is to create a folder within the harnesses folder and put MocksETH2 in there and change the name to MocksETH. This way all you need to do is add an extra run script with the new MocksETH location and won't have to copy past the spec. Its fine to do it either way though.
+
+
+[02/02/2023 18:09] teryanarmen
+You will have 24 hours after the contest ends and bugs are public to pull all changes from the public repo, add your certorakey as a repository secret, enable github actions and make the pull request.
+
+
+[02/02/2023 18:38] quantum.a
+So what actions do we need to do before 20:00 UTC today?
+
+
+[02/02/2023 18:57] teryanarmen
+Push all your work to your repo
+
+
+[02/02/2023 18:57] teryanarmen
+and not push any more work after the deadline
+
+
+[02/02/2023 19:45] jat4100
+I pushed my rules already on my private repo , on the certora-contest branch. I have nothing else to do right?
+
+
+[02/02/2023 19:45] neumoxx
+Hey @Armen | Certora , when I click on a job in the prover website it says `HTTP Status 400 – Bad Request`
+
+
+[02/02/2023 19:46] neumoxx
+Is it overloaded? The list works fine, though
+
+
+[02/02/2023 19:48] jat4100
+for my CERTORAKEY secret variable I was unsure where to add it on github, so I put it in two different places : both in settings>Secrets_and_variables>Actions and settings>Secrets_and_variables>Codespaces
+
+
+[02/02/2023 19:57] neumoxx
+Damn, I cannot see if the job completed successfully or not 😭
+
+
+[02/02/2023 20:02] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens  The **Blockswap Formal Verification Contest with Certora** is now closed! Huge thanks to everyone who participated.
+
+What's next: Blockswap and Certora will review the submissions over the next couple of weeks. Keep an eye on #📢announcements for updates on how the contest is progressing. Feel free to post in this channel if you have questions along the way!
+
+{Reactions}
+🚀 (4) 
+
+[02/02/2023 20:02] teryanarmen
+Yup you're good.
+
+
+[02/02/2023 20:02] Franfran#5067
+thanks a lot, it was a great learning course
+
+{Reactions}
+❤️ ➕ (2) 
+
+[02/02/2023 20:06] teryanarmen
+It needs to be in actions
+
+
+[02/02/2023 20:07] teryanarmen
+Not sure, should continue to work as keys are still valid. You can dm me if you'd like.
+
+{Reactions}
+👍🏼 
+
+[02/02/2023 20:09] teryanarmen
+@here The discrete bugs have now been pushed. Please follow the instructions in this thread to set everything up within the next 24 hours. After that we will go through everyones repo and tally things up and look through the real bug submissions. Thank you all for participating!
+
+
+[02/02/2023 20:11] horsefacts
++1, this was really cool, I hope we'll do more of these. 
+
+I don't think it was mentioned in the docs, but will everyone's specs be made public, the same way c4 makes findings public? They would be a really valuable learning resource. I'm happy to opt in to share mine (if you don't laugh at me, lol—I think I barely caught the public bugs 😅 )
+
+{Reactions}
+👍🏼 (2) ❤️ 
+
+[02/02/2023 20:12] neumoxx
+Really cool contest, thanks to you all!
+
+{Reactions}
+❤️ 
+
+[02/02/2023 20:13] teryanarmen
+Hmm still tbd but all the specs will be used to compile a "master" spec which I think will be made public. I will try to see if we can have a subdirectory that holds everyones individual specs.
+
+{Reactions}
+👍 (3) 
+
+[02/02/2023 20:13] horsefacts
+Even a master spec would be very helpful, thanks!
+
+{Reactions}
+☝️ (2) 
+
+[02/02/2023 20:13] zapaz
+do we have to merge the PR ?
+
+
+[02/02/2023 20:14] dravee
++1 too, thanks for this contest, really learned a lot.
+Got frustrated an amazing number of times with the tool but, the feeling was amazing after managing to unlock the situation 😄 
+I do hope we'll get to read the experts' specs 🙏
+
+{Reactions}
+❤️ (4) 
+
+[02/02/2023 20:19] quantum.a
+Started a thread.
+
+
+[02/02/2023 20:21] teryanarmen
+Nope, just used to run ci and compile changes.
+
+
+[02/02/2023 20:22] coqlover#5900
+Is it ok to make our repo public now?
+
+
+[02/02/2023 20:22] teryanarmen
+Yes
+
+
+[02/02/2023 20:22] coqlover#5900
+Ok perfect
+
+
+[02/02/2023 20:22] dravee
+Do we have to?
+
+
+[02/02/2023 20:23] teryanarmen
+No, only needed if github actions limit is reached.
+
+{Reactions}
+thankyou 
+
+[02/02/2023 20:26] teryanarmen
+Btw, if you previously opened a PR, I believe you will need to close it and reopen to get the runs on the new bugs to work.
+
+{Reactions}
+👍🏻 (2) 
+
+[02/02/2023 20:41] teryanarmen
+There was a bug in the bug4.patch. Fixed now.
+
+
+[02/02/2023 20:42] bahoz.eth
+The default vacuity check that I run on all functions(that should return false for all) causes all actions to fail, even the original code. But my rules catch public bugs. Is that ok?
+
+
+[02/02/2023 20:43] teryanarmen
+Please dm me
+
+{Reactions}
+✅ 
+
+[02/02/2023 22:00] teryanarmen
+solc-select was not being installed in the ci, updated it now. please pull this change if you have solc-select in the run script.
+
+{Reactions}
+👀 
+
+[02/02/2023 22:58] Franfran#5067
+Are we allowed to close and open a new PR ?
+
+
+[02/02/2023 23:05] Junnon#3182
+Bug4 and original.patch still error in action what should i do?
+
+
+[02/02/2023 23:29] Junnon#3182
+Its failed to install solc 0.8.13
+
+
+[02/02/2023 23:36] teryanarmen
+Please disregard this 🤦‍♂️
+
+
+[02/02/2023 23:36] teryanarmen
+dm me, but if its because of changes I pushed then yes
+
+
+[02/02/2023 23:37] teryanarmen
+bug4 was due to a bug thats been patched, please pull latest from public.
+
+
+[02/02/2023 23:38] Junnon#3182
+Already pulled but still got the error
+
+
+[02/02/2023 23:39] teryanarmen
+I introduced a bug by adding solc-select, need to repull sorry
+
+{Reactions}
+👍 
+
+[02/02/2023 23:48] teryanarmen
+Did some additional testing, everything seems to be working fine. For those that are alseep, just pull all changes from public repo, push to your certora branch. Merge from certora branch to certora-contest and make a pr from certora-contest to certora. 
+
+Also don't forget to enable github actions and add your certora key as a github action secret. 
+
+If you opened a pr before the bugs were made public you will need to close it and reopen it. Good luck everyone!
+
+
+[02/03/2023 02:27] quiark
+In my case, github actions ran automatically and I also saw no time limits
+wait I have a credit card with github, that may explain things 🙂
+also the PR automatically re-runs when I pushed new commits, like now the merge from certora
+
+{Reactions}
+👍 
+
+[02/03/2023 02:30] quiark
+Also I'm interested in more formal verification stuff although this one left me ... scarred (I'm new to competitions 😳 ). Is there any community around Certora? The discord is pretty ded
+
+
+[02/03/2023 03:25] saharasoundz
+Aleksander | Certora#8677 is active
+
+
+[02/03/2023 05:09] teryanarmen
+I think this is the biggest community of people writing rules at the same time. If you have questions we usually answer them in the certora discord. The goal is to have more contests and continue to bring people together to discuss and work on formal verification.
+
+
+[02/03/2023 10:03] reassor#7970
+i'm runninig into weird issue, the property is not being violated by the rule when the whole spec is run, but when i specify the rule it catches the bug
+
+
+[02/03/2023 10:13] aleksandercertora
+could you DM me with both links?
+
+
+[02/03/2023 10:26] reassor#7970
+sure
+
+
+[02/03/2023 16:00] dewaxindo
+Anyone know why this `certorafallback_0()` fail?
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/Screenshot_2023-02-03_at_12-CAEE9.png
+
+
+[02/03/2023 17:24] aleksandercertora
+just filter it out. It's a function created by the tool AFAIR and it fails a lot
+
+
+[02/03/2023 17:24] aleksandercertora
+filtered { f -> !f.isFallback }
+
+
+[02/03/2023 19:10] teryanarmen
+@saneryee please dm/fr me
+
+
+[02/03/2023 19:30] teryanarmen
+@EV_om please dm/fr me
+
+
+[02/03/2023 19:44] Franfran#5067
+@Armen | Certora am I allowed to make an empty commit to trigger the GH actions please ?
+
+
+[02/03/2023 19:44] Franfran#5067
+forgot to put the certorakey on time
+
+
+[02/03/2023 19:45] teryanarmen
+I can do it for you, dm me your repo link
+
+{Reactions}
+hi5 
+
+[02/03/2023 21:43] coqlover#5900
+I get a "Certora prover error" on all my runs, how can I fix it? It all stops at around 2h time, is that a hard limit and I need to split into multiple scripts?
+
+
+[02/03/2023 21:50] teryanarmen
+Think you don’t have a certorakey in the repo or it’s in the wrong place. Make sure it’s under actions
+
+
+[02/03/2023 22:02] coqlover#5900
+I double checked and think I have the key good in my repo. Also the runs show up in the list of all runs at prover.certora.com (and the "check key" part of the github action says the key has length 40), so that should be good, no?
+
+
+[02/04/2023 05:05] teryanarmen
+check dm
+
+
+[02/04/2023 05:51] matin6517
+Same problem here
+It tells me I don't have the permission.
+export CERTORAKEY doesn't work for me 🤦‍♂️
+
+
+[02/04/2023 05:55] teryanarmen
+dmed you
+
+
+[02/04/2023 09:52] PPrieditis#2482
+It would be great to have more contests 🔥 There was a bit time gap between now and the previous ones from AAVE.
+
+{Reactions}
+🚀 (5) 
+
+[02/05/2023 17:52] cryptothemex
+whats this tool?
+
+
+[02/05/2023 18:22] dravee
+Btw @Armen | Certora, are there still any formal verification gigs calling for help from the community?
+Like, submit 3 valid properties, get rewarded, and such?
+
+{Reactions}
+💪 (3) 
+
+[02/05/2023 18:54] zarfsec
+Would be interested as well!
+
+{Reactions}
+🚀 
+
+[02/05/2023 20:37] dewaxindo
+Certora Prover
+
+
+[02/06/2023 09:30] coqlover#5900
+Thanks again for the contest, was very cool, learnt a lot
+I'm curious of reading your specs if you've choosen to made them available. Do every public repo are listed here https://github.com/Certora/2023-01-blockswap-fv/network/members ? Otherwise for those who made them private, I'd be interested to have a look! (And won't share them)
+
+
+[02/06/2023 10:02] uri2319
+There is a community verification collaboration with the AAVE DAO; the next contest will likely start in a few weeks. Several more opportunities are planned as well, but we have yet to announce them to the public.
+We will share the details here when available, but you can also follow Certora's Discord or Twitter to be up to date.
+We would love to see you all again in future community verification efforts!
+https://discord.gg/Z9wQfRqZYY
+https://twitter.com/certorainc
+
+{Reactions}
+🔥 (7) 
+
+[02/06/2023 10:12] zapaz
+here is mine, it's public but not in the list 🧐 
+https://github.com/zapaz/2023-01-19-blockswap-fv
+
+
+[02/06/2023 10:19] quiark
+it's saying there were 190 participants on twitter but I guess just to get the key and way less than that active right
+
+
+[02/06/2023 17:22] teryanarmen
+~50 created and shared a repo with me, less of them had a PR on their repo. Will try to compile results this week.
+
+{Reactions}
+🙌 (7) 😮 (2) 
+
+[02/07/2023 03:42] Junnon#3182
+can't wait to participate another formal verification contest
+
+{Reactions}
+🙌 same 🤸 
+
+[02/11/2023 20:40] ladboy233
+How is everyone's experience in formal verification contest?
+
+
+[02/11/2023 20:40] ladboy233
+I did not participant in this one.
+
+
+[02/20/2023 19:40] itsmetechjay
+:C4Keycap:  💸 🎉 Awards for **Blockswap Formal Verification Contest with Certora**:
+
+$4,608.40 USDC  »  @Koolex 
+$4,606.98 USDC  »  @neumo 
+$4,497.54 USDC  »  @quantum
+$3,486.15 USDC  »  @eighty 
+$3,010.90 USDC  »  @Dravee 
+$2,359.22 USDC  »  Apocalypto (@cRat1st0s, @lucyoa, @M0ndoHEHE)
+$1,544.62 USDC  »  @vnmrtz.eth 
+$903.82 USDC  »  @abhi512 
+$868.96 USDC  »  @PPrieditis 
+$855.08 USDC  »  @Quiark 
+$767.60 USDC  »  @horsefacts 
+$442.45 USDC  »  @zapaz 
+$442.45 USDC  »  @Junnon 
+$350.50 USDC  »  @slvDev 
+$214.29 USDC  »  @gzeon 
+$214.29 USDC  »  @100proof 
+$214.29 USDC  »  @carrotsmuggler 
+$214.29 USDC  »  @stentonian 
+$214.29 USDC  »  @BAHOZ 
+$91.95 USDC  »  @coqlover 
+$91.95 USDC  »  @Zarf 
+
+Awards will be distributed on Polygon within the next week. Congratulations, everyone! 💸 💸 💸
+
+{Reactions}
+🎉 (2) 
+
+[02/20/2023 20:08] stentonian
+@Jay | C4 Was the participation award not given? I see in my PR that the github action shows my spec managed to find the 3 publicly injected bugs but I did not receive a reward.
+
+
+[02/20/2023 20:11] itsmetechjay
+@Armen | Certora?
+
+
+[02/20/2023 21:47] quantum.a
+Started a thread.
+
+
+[02/20/2023 22:19] neumoxx
+Hey @Jay | C4 @Armen | Certora will you publish the detailed results of both the injected and the real bugs?
+
+
+[02/20/2023 22:31] Junnon#3182
+Congrats all, next time will be better.
+
+
+[02/21/2023 01:33] dewaxindo
+@Armen | Certora
+
+
+[02/21/2023 02:02] teryanarmen
+Sure, I’ll try to get the real bugs to go into the normal c4 database. Let me think about the best way to share the results for the injected bugs but will share soon.
+
+{Reactions}
+👍 
+
+[02/21/2023 02:17] teryanarmen
+Looks like I made an accounting error (checked the wrong cell in sheets) awards should be updated soon. Sorry about the confusion.
+
+
+[02/21/2023 04:42] teryanarmen
+To give more detail here in case others are confused: I counted bug0 bug5 and bug9 for participation instead of bug1 bug5 and bug9. Rewards have been corrected and should be updated shortly. Sorry about the inconvenience.
+
+
+[02/21/2023 08:46] coqlover#5900
+Nice 🔥
+Thanks for the contest
+
+{Reactions}
+🔥 
+
+[02/21/2023 10:58] Saintcode_#8823
+yeah, thanks for the opportunity to gain more experience with formal verification
+
+
+[02/21/2023 19:07] itsmetechjay
+All, please note that the original award announcement has been edited. Per the note from Certora,  there was an accounting error where bug0, bug5, and bug9 were counted for participation instead of bug1, bug5, and bug9.
+
+{Reactions}
+thankyou (2) 
+
+[02/22/2023 16:40] Saintcode_#8823
+If the spec catched both bugs there should not be a diference in awards right?
+
+
+[02/22/2023 16:40] teryanarmen
+Previously participation rewards were divided by a smaller number, so there may be a difference
+
+
+[02/22/2023 18:18] teryanarmen
+Hey guys, this is the (very unorganized/messy) spreadsheet with all the reward calculations, many of you have asked about more details so Im just going to share it. https://docs.google.com/spreadsheets/d/1hdFFzg-z12nNWi77vgx-vgIUUxo3zH5QunzvpD4P2VU/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1hdFFzg-z12nNWi77vgx-vgIUUxo3zH5QunzvpD4P2VU/edit?usp=sharing
+Copy of c4 results
+Sheet1
+
+TOTAL,Points,Value,jessicapointing,quiark,8ahoz,JustDravee,Taishi,one-hundred-proof,carrotsmuggler,jat9292,koolexcrypto,gzeoneth,jraynaldi3,mookim-eth,elpacos,horsefacts,whilom0,zapaz
+10,0.387420489,$136.22,bug0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1
+18,0,$0.00,bug1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0...
+Code4rena - ARCHIVE-Q1-2023 - blockswap-fv-jan19 [1062430373038002226].txt_Files/eKzALGpg-DPiwVJw3yeu9xbQc3OvYds5WuwDlsjz4G-02B22
+
+{Reactions}
+thankyou 
+
+[02/22/2023 18:19] teryanarmen
+Also its by github username not by c4
+
+
+[02/22/2023 19:36] teryanarmen
+Also if anyone here didn't get to spend much time learning the tool and wants to participate in an educational workshop where we have more people to help you learn the tool, we are doing one with the top 32 scorers on Secureum's race 15, I think the quiz opens Feb 23rd.
+
+{Reactions}
+🔥 (3) 
+
+[02/22/2023 23:25] Junnon#3182
+Someone really catch a real bug, curious what bugs they are.
+
+{Reactions}
+👍🏼 (2) 
+
+[02/23/2023 16:16] jat4100
+Sorry just saw my name, all is good. I am also curious to see the invariants from other participants , especially those which are able to detect real bugs
+
+
+[02/24/2023 13:02] stentonian
+@Koolex well done on your 1st place! Would you mind making your repo public? I want to read your spec files
+
+
+[02/24/2023 13:05] koolexc
+Thank you! 🙂  It is already public. go for it
+
+{Reactions}
+🙏 (3) 
+
+[02/25/2023 16:52] _himanshu_
+Can u pls share link of it? I am not able to find it.
+
+
+[02/25/2023 17:03] koolexc
+Sure
+
+
+[02/25/2023 17:03] koolexc
+https://github.com/koolexcrypto/2023-01-blockswap-fv-private
+
+{Reactions}
+🔥 
+
+[02/25/2023 17:25] _himanshu_
+Appreciate it ☺️
+
+{Reactions}
+💚 (3) 
+
+[02/28/2023 16:58] neumoxx
+Any ETA for sending awards and update leaderboard? @CloudEllie
+
+{Reactions}
+👀 
+
+[03/01/2023 08:24] Junnon#3182
+isn't awards already sent?
+
+
+[03/01/2023 08:35] koolexc
+Awards already sent. At least this is how it appeared to me
+
+
+[03/01/2023 08:35] koolexc
+But leaderboard not updated
+
+
+[03/01/2023 08:37] neumoxx
+Polygon USCD?
+
+
+[03/01/2023 08:53] neumoxx
+Sorry, I just rechecked and received the payment some days ago. Thank you all.
+
+{Reactions}
+👍 
+
+[03/02/2023 08:51] koolexc
+@CloudEllie any update on this? Just a friendly reminder in case you overlooked it 😁
+
+
+[03/02/2023 11:28] cloudellie
+We don't yet have a way to support non-standard contest types (of which this is one) on the C4 leaderboard -- will need to update our data structure & UX, so it's a bit of a project. Definitely a "soon" priority but not "1-2 weeks" soon.
+
+{Reactions}
+👍🏻 
+
+[03/02/2023 11:37] koolexc
+Thank you for the clarification
+
+{Reactions}
+hi5 
+
+[03/02/2023 11:38] cloudellie
+No problem! As you can probably tell, our web/dev team has been a little busy with the website redesign 🙂 But leaderboard update is definitely in the backlog!
+
+
+[03/02/2023 11:43] koolexc
+Yes, I was checking out the website. It's refreshing, kinda made the site alive 😄  
+Respect for all the efforts put in.
+
+{Reactions}
+🙌 (2) thankyou 
+
+[03/02/2023 13:40] quiark
+sorry if I missed it but is there a final report for Blockswap published?
+
+
+[03/02/2023 14:14] teryanarmen
+not yet
+
+
+[04/09/2023 12:19] koolexc
+Any update on this? 🙂
+
+
+[04/23/2023 14:48] koolexc
+👀
+
+
+[04/30/2023 21:06] koolexc
+Heyy @CloudEllie, 
+Any news on this would be appreciated ser
+
+
+[04/30/2023 23:43] ladboy233
+👀👀👀
+
+
+[05/11/2023 20:50] koolexc
+It seems @CloudEllie is busy or not seeing my message .
+
+@kartoonjoy would you be kind and ping anyone from the team who can provide an update on this?
+
+
+[05/11/2023 20:51] itsmetechjay
+Can you let me know what your concerns are?
+
+
+[05/11/2023 20:59] koolexc
+Just to know if the leaderboard got updated or it's excluded for this
+
+
+[05/11/2023 21:09] itsmetechjay
+Oh got it. The formal verification is not included in the leaderboard yet. Supporting non-standard contest types is on our list of improvements we want to make to the leaderboard in the near future.
+
+
+[05/11/2023 21:30] koolexc
+Understood. Thank you!
+
+{Reactions}
+hi5 
+
+[05/11/2023 21:31] itsmetechjay
+apologies for missing your earlier messages.
+
+{Reactions}
+💚 
+
+[05/14/2023 19:41] indijanc7
+The Discord invite "may be expired, or you might not have permission to join."
+
+
+[05/15/2023 10:27] uri2319
+Thanks for pointing it out, the link is now updated
+
+{Reactions}
+👍 
+
+[05/16/2023 15:49] ladboy233
+Our friends at Certora have an opportunity for folks to polish formal verification skills and earn $$$ doing it. Event kicks off tomorrow (May 17)
+
+Check out details here: https://twitter.com/certorainc/status/1657806463002202117
+
+{Embed}
+Certora (@CertoraInc)
+https://twitter.com/certorainc/status/1657806463002202117
+1/ We're excited to announce a new @AaveAave Certora community verification contest with a prize pool of $40,000! Join us for two weeks as we verify @bgdlabs' implementation of a static aToken, an aToken wrapper that grows in value rather than in balance.
+Twitter
+
+{Reactions}
+🔥 (3) 👌🏻 (2) 
+
+[05/16/2023 15:49] ladboy233
+@Koolex
+
+
+[08/01/2023 08:57] chinmayf
+Hey @Koolex this isn't public anymore ?
+
+
+[08/01/2023 11:12] koolexc
+Heyy, I am not sure. But I opened it for a while. It's CVL1 and not a very good reference for specs writings imo
+
+{Reactions}
+👍🏽 
+
+[08/07/2023 18:12] davidgiladi
+Hi. do I need to register to be able to participate in the next competition?
+
+
+[08/07/2023 19:06] itsmetechjay
+can you ask in #gmx-fv-aug07?
+
+
+[08/27/2023 17:22] benrai
+Is this still public or did you take it down/private? 🙂
+
+
+[08/27/2023 21:27] koolexc
+It's not public anymore. IMO, Not a very good reference plus it's CVL1
+
+
+[08/28/2023 05:00] benrai
+Ok, thanks for the info 🙂
+
+{Reactions}
+👍 
+
+==============================================================
+Exported 617 message(s)
+==============================================================
